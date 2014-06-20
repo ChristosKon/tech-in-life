@@ -1,0 +1,3312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lite Virtue\n"
+"POT-Creation-Date: 2014-04-28 18:26-0700\n"
+"PO-Revision-Date: 2014-06-09 10:59-0700\n"
+"Last-Translator: Coaex Precious Metals <info@coaex.com>\n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Üzgünüz ama görüntülemeye çalıştığınız sayfa mevcut değildir."
+
+#: ../404.php:14
+msgid "It looks like this was the result of either:"
+msgstr "Muhtemel neden olarak şunlar gözüküyor:"
+
+#: ../404.php:16
+msgid "a mistyped address"
+msgstr "yanlış yazılmış bir adres"
+
+#: ../404.php:17
+msgid "an out-of-date link"
+msgstr "geçersiz bir bağlantı"
+
+#: ../archive.php:16 ../index.php:13 ../taxonomy-portfolio-type.php:13
+msgid "Sorry, no results were found."
+msgstr "Üzgünüz, hiçbir sonuç bulunamadı."
+
+#: ../page-blog.php:53 ../templates/recentblog-carousel.php:48
+#: ../templates/similarblog-carousel.php:52 ../templates/home/blog-home.php:84
+#: ../templates/home/latest-slider.php:32
+msgid "Sorry, no blog entries found."
+msgstr "Üzgünüz, hiçbir blog girdisi bulunamadı."
+
+#: ../page-contact.php:84
+msgid "Please enter your name."
+msgstr "Lütfen adınızı giriniz."
+
+#: ../page-contact.php:91
+msgid "Please enter your email address."
+msgstr "Lütfen eposta adresinizi giriniz."
+
+#: ../page-contact.php:94
+msgid "You entered an invalid email address."
+msgstr "Geçersiz bir eposta adresi girdiniz."
+
+#: ../page-contact.php:101
+msgid "Please enter a message."
+msgstr "Lütfen bir mesaj yazınız."
+
+#: ../page-contact.php:118
+msgid " Contact"
+msgstr "İletişim"
+
+#: ../page-contact.php:118
+#: ../themeoptions/inc/fields/color_gradient/field_color_gradient.php:73
+msgid "From "
+msgstr "Kimden"
+
+#: ../page-contact.php:119 ../templates/comments.php:68
+#: ../woocommerce/single-product-reviews.php:62
+msgid "Name"
+msgstr "İsim"
+
+#: ../page-contact.php:120
+msgid "From"
+msgstr "Kimden"
+
+#: ../page-contact.php:158
+msgid "Thanks, your email was sent successfully."
+msgstr "Teşekkürler, epostanız başarıyla gönderildi."
+
+#: ../page-contact.php:162
+msgid "Sorry, an error occured."
+msgstr "Üzgünüz, bir hata oluştu."
+
+#: ../page-contact.php:168 ../lib/widgets.php:285
+msgid "Name:"
+msgstr "İsim:"
+
+#: ../page-contact.php:177
+msgid "Email: "
+msgstr "Eposta:"
+
+#: ../page-contact.php:183
+msgid "Message: "
+msgstr "Mesaj:"
+
+#: ../page-contact.php:190
+msgid "Send Email"
+msgstr "Eposta Gönder"
+
+#: ../page-portfolio.php:102 ../templates/recentportfolio-carousel.php:42
+#: ../templates/home/portfolio-carousel.php:60
+msgid "Sorry, no portfolio entries found."
+msgstr "Üzgünüz, hiçbir portföy girdisi bulunamadı."
+
+#: ../searchform.php:2
+msgid "Search for:"
+msgstr "Şunu ara:"
+
+#: ../searchform.php:3
+msgid "Search"
+msgstr "Ara"
+
+#: ../taxonomy-portfolio-type.php:101
+msgid "&larr; Older posts"
+msgstr "&larr; Eski yazılar"
+
+#: ../taxonomy-portfolio-type.php:102
+msgid "Newer posts &rarr;"
+msgstr "Yeni yazılar &rarr;"
+
+#: ../lib/authorbox.php:5
+msgid "About Author"
+msgstr "Yazar Hakkında"
+
+#: ../lib/authorbox.php:6 ../lib/utils.php:60
+msgid "Latest Posts"
+msgstr "Son Yazılar"
+
+#: ../lib/authorbox.php:13 ../lib/authorbox.php:16 ../lib/authorbox.php:20
+#: ../lib/authorbox.php:24 ../lib/authorbox.php:28 ../lib/authorbox.php:32
+#: ../lib/authorbox.php:36 ../lib/authorbox.php:40 ../lib/authorbox.php:44
+#: ../lib/authorbox.php:48
+msgid "Follow"
+msgstr "Takip Et"
+
+#: ../lib/authorbox.php:16
+msgid "on Facebook"
+msgstr "Facebook'ta"
+
+#: ../lib/authorbox.php:20
+msgid "on Twitter"
+msgstr "Twitter'da"
+
+#: ../lib/authorbox.php:24
+msgid "on Google Plus"
+msgstr "Google Plus'ta"
+
+#: ../lib/authorbox.php:28
+msgid "on Flickr"
+msgstr "Flickr'da"
+
+#: ../lib/authorbox.php:32
+msgid "on Vimeo"
+msgstr "Vimeo'da"
+
+#: ../lib/authorbox.php:36
+msgid "on linkedin"
+msgstr "linkedin'de"
+
+#: ../lib/authorbox.php:40
+msgid "on Dribbble"
+msgstr "Dribbble'da"
+
+#: ../lib/authorbox.php:44
+msgid "on Pinterest"
+msgstr "Pinterest'te"
+
+#: ../lib/authorbox.php:48
+msgid "on Instagram"
+msgstr "Instagram'da"
+
+# Latest posts from %s
+# %s variable should be placed in the beginning.
+# Translation: %s kullanıcısından son yazılar
+#: ../lib/authorbox.php:65
+msgid "Latest posts from"
+msgstr "Son yazıları"
+
+#: ../lib/class-tgm-plugin-activation.php:155
+#: ../lib/virtuetoolkit-activate.php:34
+msgid "Install Required Plugins"
+msgstr "Gerekli Eklentileri Kur"
+
+#: ../lib/class-tgm-plugin-activation.php:156
+#: ../lib/virtuetoolkit-activate.php:35
+msgid "Install Plugins"
+msgstr "Eklentileri Kur"
+
+#: ../lib/class-tgm-plugin-activation.php:157
+#: ../lib/virtuetoolkit-activate.php:36
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Eklenti Kuruluyor: %s"
+
+#: ../lib/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr "Bir şey yanlış gitti."
+
+#: ../lib/class-tgm-plugin-activation.php:169
+#: ../lib/virtuetoolkit-activate.php:48
+msgid "Return to Required Plugins Installer"
+msgstr "Gerekli Eklenti Kurulumuna Dön"
+
+#: ../lib/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr "Başlangıca Dön"
+
+#: ../lib/class-tgm-plugin-activation.php:171
+#: ../lib/class-tgm-plugin-activation.php:1840
+#: ../lib/virtuetoolkit-activate.php:49
+msgid "Plugin activated successfully."
+msgstr "Eklenti başarıyla etkinleştirildi."
+
+#: ../lib/class-tgm-plugin-activation.php:172
+#: ../lib/class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Bu eklenti başarıyla etkinleştirildi:"
+msgstr[1] "Bu eklentiler başarıyla etkinleştirildiler:"
+
+#: ../lib/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tüm eklentiler başarıyla kuruldu ve etkinleştirildi. %1$s"
+
+#: ../lib/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr "Bu uyarıyı yoksay"
+
+#: ../lib/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr "Harici Bağlantı"
+
+#: ../lib/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr "Özel Veri Havuzu"
+
+#: ../lib/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr "Önceden Paketlenmiş"
+
+#: ../lib/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr "WordPress Veri Havuzu"
+
+#: ../lib/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr "Gerekli"
+
+#: ../lib/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr "Tavsiye Edilen"
+
+#: ../lib/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr "Kurulmamış"
+
+#: ../lib/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr "Kurulmuş Ancak Etkinleştirilmemiş"
+
+# Should I translate the title?
+# \"Return to the Dashboard\"
+#: ../lib/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Kurulacak veya etkinleştirilecek eklenti yoktur. <a href=\"%1$s\" title="
+"\"Return to the Dashboard\">Başlangıca Dön</a>"
+
+#: ../lib/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr "Eklenti"
+
+#: ../lib/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr "Kaynak"
+
+#: ../lib/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr "Tür"
+
+#: ../lib/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr "Durum"
+
+#: ../lib/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr "Kur"
+
+#: ../lib/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: ../lib/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr "Kurulum paketi mevcut değildir."
+
+#: ../lib/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"<span class=\"code\">%s</span>&#8230; alanından kurulum paketi indiriliyor"
+
+#: ../lib/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr "Paket açılıyor&#8230;"
+
+#: ../lib/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr "Eklenti kuruluyor&#8230;"
+
+#: ../lib/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr "Eklenti kurulumu başarısız oldu."
+
+#: ../lib/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr "Eklenti başarıyla kuruldu."
+
+#: ../lib/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr "Eklenti etkinleştirmesi başarısız oldu."
+
+#: ../lib/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Kurulum ve etkinleştirme işlemi başlıyor. Bu işlem, bazı ana bilgisayarlarda "
+"zaman alabilir, bu yüzden sabırlı olunuz."
+
+#: ../lib/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s başarıyla kuruldu ve etkinleştirildi."
+
+#: ../lib/class-tgm-plugin-activation.php:1950
+#: ../lib/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr "Detayları Göster"
+
+#: ../lib/class-tgm-plugin-activation.php:1950
+#: ../lib/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr "Detayları Gizle"
+
+#: ../lib/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr "Tüm kurulum ve etkinleştirmeler tamamlandı."
+
+#: ../lib/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Eklenti %1$s (%2$d/%3$d) Kuruluyor ve Etkinleştiriliyor"
+
+#: ../lib/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Kurulum işlemi başlıyor. Bu işlem, bazı ana bilgisayarlarda zaman alabilir, "
+"bu yüzden sabırlı olunuz."
+
+#: ../lib/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s kurulurken bir hata oluştu: <strong>%2$s</strong>."
+
+#: ../lib/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s kurulumu başarısız oldu."
+
+#: ../lib/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s başarıyla kuruldu."
+
+#: ../lib/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr "Tüm kurulumlar tamamlandı."
+
+#: ../lib/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Eklenti %1$s (%2$d/%3$d) Kuruluyor"
+
+#: ../lib/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr "Başlangıca Dön"
+
+#: ../lib/cleanup.php:164
+msgid "Continued"
+msgstr "Devamı"
+
+#: ../lib/comments.php:38 ../templates/comment.php:5
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: ../lib/comments.php:43
+msgid "| (Edit)"
+msgstr "| (Düzenle)"
+
+#: ../lib/comments.php:49 ../templates/comment.php:11
+msgid "Your comment is awaiting moderation."
+msgstr "Yorumunuz moderasyon onayı bekliyor."
+
+#: ../lib/custom-woocommerce.php:95 ../templates/header.php:30
+msgid "View your shopping cart"
+msgstr "Alışveriş sepetini görüntüle"
+
+#: ../lib/custom-woocommerce.php:96 ../templates/header.php:31
+msgid "Your Cart"
+msgstr "Sepetiniz"
+
+#: ../lib/custom.php:356 ../templates/entry-post-links.php:3
+msgid "Previous Post"
+msgstr "Önceki Yazı"
+
+#: ../lib/custom.php:356 ../templates/entry-post-links.php:6
+msgid "Next Post"
+msgstr "Sonraki Yazı"
+
+#: ../lib/custom.php:448
+msgid "Occupation"
+msgstr "Meslek"
+
+#: ../lib/custom.php:451
+msgid "Please enter your Occupation."
+msgstr "Lütfen Mesleğinizi Giriniz."
+
+#: ../lib/custom.php:458
+msgid "Please enter your Twitter username."
+msgstr "Lütfen Twitter kullanıcı adınızı giriniz."
+
+#: ../lib/custom.php:465
+msgid "Please enter your Facebook url. (be sure to include http://)"
+msgstr ""
+"Facebook bağlantınızı giriniz. (http:// 'yi dahil ettiğinizden emin olunuz)"
+
+#: ../lib/custom.php:472
+msgid "Please enter your Google Plus url. (be sure to include http://)"
+msgstr ""
+"Google Plus bağlantınızı giriniz. (http:// 'yi dahil ettiğinizden emin "
+"olunuz)"
+
+#: ../lib/custom.php:479
+msgid "Please enter your Flickr url. (be sure to include http://)"
+msgstr ""
+"Flickr bağlantınızı giriniz. (http:// 'yi dahil ettiğinizden emin olunuz)"
+
+#: ../lib/custom.php:486
+msgid "Please enter your Linkedin url. (be sure to include http://)"
+msgstr ""
+"Linkedin bağlantınızı giriniz. (http:// 'yi dahil ettiğinizden emin olunuz)"
+
+#: ../lib/custom.php:493
+msgid "Please enter your Dribbble url. (be sure to include http://)"
+msgstr ""
+"Dribbble bağlantınızı giriniz. (http:// 'yi dahil ettiğinizden emin olunuz)"
+
+#: ../lib/custom.php:500
+msgid "Please enter your Pinterest url. (be sure to include http://)"
+msgstr ""
+"Pinterest bağlantınızı giriniz. (http:// 'yi dahil ettiğinizden emin olunuz)"
+
+#: ../lib/custom.php:507
+msgid "Please enter your Instagram url. (be sure to include http://)"
+msgstr ""
+"Instagram bağlantınızı giriniz. (http:// 'yi dahil ettiğinizden emin olunuz)"
+
+#: ../lib/gallery_metabox.php:8
+msgid "Post Slider Images"
+msgstr "Yazı Kaydırıcı Resimleri"
+
+#: ../lib/gallery_metabox.php:9
+msgid "Portfolio Slider Images"
+msgstr "Portföy Kaydırıcı Resimleri"
+
+#: ../lib/gallery_metabox.php:10
+msgid "Feature Page Slider Images"
+msgstr "Öne Çıkan Sayfa Kaydırıcı Resimleri"
+
+#: ../lib/gallery_metabox.php:26 ../lib/gallery_metabox.php:91
+msgid "Remove image"
+msgstr "Resmi kaldır"
+
+#: ../lib/gallery_metabox.php:37
+msgid "Add images"
+msgstr "Resim ekle"
+
+#: ../lib/gallery_metabox.php:66
+msgid "Add Images to Gallery"
+msgstr "Galeriye Resim Ekle"
+
+#: ../lib/gallery_metabox.php:68
+msgid "Add to gallery"
+msgstr "Galeriye ekle"
+
+#: ../lib/init.php:9
+msgid "Primary Navigation"
+msgstr "Birincil Navigasyon"
+
+#: ../lib/init.php:10
+msgid "Secondary Navigation"
+msgstr "İkincil Navigasyon"
+
+#: ../lib/init.php:11
+msgid "Mobile Navigation"
+msgstr "Mobil Navigasyon"
+
+#: ../lib/init.php:12
+msgid "Topbar Navigation"
+msgstr "Üst Çubuk Navigasyonu"
+
+#: ../lib/init.php:13
+msgid "Footer Navigation"
+msgstr "Alt Bilgi Navigasyonu"
+
+#: ../lib/metaboxes.php:21 ../lib/metaboxes.php:381 ../lib/metaboxes.php:506
+#: ../themeoptions/inc/fields/border/field_border.php:113
+#: ../themeoptions/inc/fields/spacing/field_spacing.php:151
+msgid "All"
+msgstr "Tümü"
+
+#: ../lib/metaboxes.php:36
+msgid "All Blog Posts"
+msgstr "Tüm Blog Yazıları"
+
+#: ../lib/metaboxes.php:68
+msgid "Page Title and Subtitle"
+msgstr "Sayfa Başlığı ve Alt Başlık"
+
+#: ../lib/metaboxes.php:75
+msgid "Subtitle"
+msgstr "Alt Başlık"
+
+#: ../lib/metaboxes.php:76
+msgid "Subtitle will go below page title"
+msgstr "Alt başlık, sayfa başlığının altında yer alacaktır"
+
+#: ../lib/metaboxes.php:85
+msgid "Post Options"
+msgstr "Yazı Seçenekleri"
+
+#: ../lib/metaboxes.php:93
+msgid "Head Content"
+msgstr "Başlık İçeriği"
+
+#: ../lib/metaboxes.php:98 ../lib/metaboxes.php:123 ../lib/cmb/init.php:244
+#: ../themeoptions/framework.php:1897
+msgid "Default"
+msgstr "Varsayılan"
+
+#: ../lib/metaboxes.php:99 ../lib/metaboxes.php:225
+#: ../themeoptions/options.php:1764
+msgid "None"
+msgstr "Hiçbiri"
+
+#: ../lib/metaboxes.php:100 ../lib/metaboxes.php:222 ../lib/metaboxes.php:448
+#: ../themeoptions/options.php:1764
+msgid "Image Slider"
+msgstr "Resim Kaydırıcı"
+
+#: ../lib/metaboxes.php:101 ../lib/metaboxes.php:129 ../lib/metaboxes.php:224
+#: ../lib/metaboxes.php:449 ../themeoptions/options.php:1764
+msgid "Video"
+msgstr "Video"
+
+#: ../lib/metaboxes.php:102 ../lib/metaboxes.php:221 ../lib/metaboxes.php:450
+#: ../lib/widgets.php:794 ../themeoptions/options.php:1764
+msgid "Image"
+msgstr "Resim"
+
+#: ../lib/metaboxes.php:106 ../lib/metaboxes.php:229 ../lib/metaboxes.php:454
+msgid "Max Image/Slider Height"
+msgstr "Maks. Resim/Kaydırıcı Yüksekliği"
+
+#: ../lib/metaboxes.php:107 ../lib/metaboxes.php:455
+msgid "Default is: 400 <b>(Note: just input number, example: 350)</b>"
+msgstr "Varsayılan: 400 <b>(Not: sadece sayı girin, örneğin: 350)</b>"
+
+#: ../lib/metaboxes.php:112 ../lib/metaboxes.php:235 ../lib/metaboxes.php:460
+msgid "Max Image/Slider Width"
+msgstr "Maks. Resim/Kaydırıcı Genişliği"
+
+#: ../lib/metaboxes.php:113
+msgid ""
+"Default is: 770 or 1140 on fullwidth posts <b>(Note: just input number, "
+"example: 650, does not apply to carousel slider)</b>"
+msgstr ""
+"Varsayılan: 770 veya tam genişlik yazılarda 1140 <b>(Not: sadece sayı girin, "
+"örneğin: 650, karusel kaydırıcıya uygulanamaz)</b>"
+
+#: ../lib/metaboxes.php:118
+msgid "Post Summary"
+msgstr "Yazı Özeti"
+
+#: ../lib/metaboxes.php:124 ../lib/widgets.php:800
+msgid "Text"
+msgstr "Metin"
+
+#: ../lib/metaboxes.php:125
+msgid "Portrait Image"
+msgstr "Portre Resmi"
+
+#: ../lib/metaboxes.php:126
+msgid "Landscape Image"
+msgstr "Manzara Resmi"
+
+#: ../lib/metaboxes.php:127
+msgid "Portrait Image Slider"
+msgstr "Portre Resim Kaydırıcı"
+
+#: ../lib/metaboxes.php:128
+msgid "Landscape Image Slider"
+msgstr "Manzara Resim Kaydırıcı"
+
+#: ../lib/metaboxes.php:133 ../lib/metaboxes.php:535
+msgid "Display Sidebar?"
+msgstr "Kenar Çubuğu Görüntülensin mi?"
+
+#: ../lib/metaboxes.php:134 ../lib/metaboxes.php:536
+msgid "Choose if layout is fullwidth or sidebar"
+msgstr "Yerleşim, tam genişlikli veya kenar çubuklu ise seçin"
+
+#: ../lib/metaboxes.php:138 ../lib/metaboxes.php:155 ../lib/metaboxes.php:246
+#: ../lib/metaboxes.php:425 ../lib/metaboxes.php:471 ../lib/metaboxes.php:540
+#: ../lib/metaboxes.php:568 ../lib/metaboxes.php:585
+msgid "Yes"
+msgstr "Evet"
+
+#: ../lib/metaboxes.php:139 ../lib/metaboxes.php:154 ../lib/metaboxes.php:164
+#: ../lib/metaboxes.php:247 ../lib/metaboxes.php:322 ../lib/metaboxes.php:424
+#: ../lib/metaboxes.php:472 ../lib/metaboxes.php:541 ../lib/metaboxes.php:569
+#: ../lib/metaboxes.php:584
+msgid "No"
+msgstr "Hayır"
+
+#: ../lib/metaboxes.php:143 ../lib/metaboxes.php:545 ../lib/metaboxes.php:655
+msgid "Choose Sidebar"
+msgstr "Kenar Çubuğu Seç"
+
+#: ../lib/metaboxes.php:149
+msgid "Author Info"
+msgstr "Yazar Bilgisi"
+
+#: ../lib/metaboxes.php:150
+msgid "Display an author info box?"
+msgstr "Yazar bilgisi kutusu görüntülensin mi?"
+
+#: ../lib/metaboxes.php:159
+msgid "Posts Carousel"
+msgstr "Yazı Karuseli"
+
+#: ../lib/metaboxes.php:160
+msgid "Display a carousel with similar or recent posts?"
+msgstr "Benzer yazılar veya son yazıların olduğu bir karusel görüntülensin mi?"
+
+#: ../lib/metaboxes.php:165
+msgid "Yes - Display Recent Posts"
+msgstr "Evet - Son Yazıları Görüntüle"
+
+#: ../lib/metaboxes.php:166
+msgid "Yes - Display Similar Posts"
+msgstr "Evet - Benzer Yazıları Görüntüle"
+
+#: ../lib/metaboxes.php:171 ../lib/metaboxes.php:327
+msgid "Carousel Title"
+msgstr "Karusel Başlığı"
+
+#: ../lib/metaboxes.php:172
+msgid "ex. Similar Posts"
+msgstr "örn: Benzer Yazılar"
+
+#: ../lib/metaboxes.php:180
+msgid "Post Video Box"
+msgstr "Yazı Video Kutusu"
+
+#: ../lib/metaboxes.php:188 ../lib/metaboxes.php:476
+msgid "If Video Post"
+msgstr "If Video Yazısı"
+
+#: ../lib/metaboxes.php:189 ../lib/metaboxes.php:312 ../lib/metaboxes.php:477
+msgid "Place Embed Code Here, works with youtube, vimeo..."
+msgstr "Gömülü Kodu Buraya Yerleştirin. Youtube, Vimeo vb. ile çalışır."
+
+#: ../lib/metaboxes.php:197
+msgid "Portfolio Post Options"
+msgstr "Portföy Yazı Seçenekleri"
+
+#: ../lib/metaboxes.php:205
+msgid "Project Layout"
+msgstr "Proje Yerleşimi"
+
+#: ../lib/metaboxes.php:210
+msgid "Beside"
+msgstr "Yanında"
+
+#: ../lib/metaboxes.php:211
+msgid "Above"
+msgstr "Üstünde"
+
+#: ../lib/metaboxes.php:212
+msgid "Three Rows"
+msgstr "Üç Satır"
+
+#: ../lib/metaboxes.php:216
+msgid "Project Options"
+msgstr "Proje Seçenekleri"
+
+#: ../lib/metaboxes.php:223
+msgid "Carousel Slider"
+msgstr "Karusel Kaydırıcı"
+
+#: ../lib/metaboxes.php:230
+msgid "Default is: 450 <b>(Note: just input number, example: 350)</b>"
+msgstr "Varsayılan: 450 <b>(Not: sadece sayı girin, örneğin: 350)</b>"
+
+#: ../lib/metaboxes.php:236
+msgid ""
+"Default is: 670 or 1140 on <b>above</b> or <b>three row</b> layouts (Note: "
+"just input number, example: 650)</b>"
+msgstr ""
+"Varsayılan: 670 veya <b>üstünde</b> ya da <b>üç satır</b> yerleşimlerinde "
+"1140 <b>(Not: sadece sayı girin, örneğin: 650)</b>"
+
+#: ../lib/metaboxes.php:241
+msgid "Auto Play Slider?"
+msgstr "Kaydırıcı Otomatik Çalışsın mı?"
+
+#: ../lib/metaboxes.php:251
+msgid "Value 01 Title"
+msgstr "Değer 01 Başlığı"
+
+#: ../lib/metaboxes.php:252
+msgid "ex. Project Type:"
+msgstr "örn. Proje Türü:"
+
+#: ../lib/metaboxes.php:257
+msgid "Value 01 Description"
+msgstr "Değer 01 Açıklaması"
+
+#: ../lib/metaboxes.php:258
+msgid "ex. Character Illustration"
+msgstr "örn. Karakter İllüstrasyonu"
+
+#: ../lib/metaboxes.php:263
+msgid "Value 02 Title"
+msgstr "Değer 02 Başlığı"
+
+#: ../lib/metaboxes.php:264
+msgid "ex. Skills Needed:"
+msgstr "örn. Gerekli Yetenekler:"
+
+#: ../lib/metaboxes.php:269
+msgid "Value 02 Description"
+msgstr "Değer 02 Açıklaması"
+
+#: ../lib/metaboxes.php:270
+msgid "ex. Photoshop, Illustrator"
+msgstr "örn. Photoshop, Illustrator"
+
+#: ../lib/metaboxes.php:275
+msgid "Value 03 Title"
+msgstr "Değer 03 Başlığı"
+
+#: ../lib/metaboxes.php:276
+msgid "ex. Customer:"
+msgstr "örn. Müşteri:"
+
+#: ../lib/metaboxes.php:281
+msgid "Value 03 Description"
+msgstr "Değer 03 Açıklaması"
+
+#: ../lib/metaboxes.php:282
+msgid "ex. Example Inc"
+msgstr "örn. Örnek Ltd. Şti."
+
+#: ../lib/metaboxes.php:287
+msgid "Value 04 Title"
+msgstr "Değer 04 Başlığı"
+
+#: ../lib/metaboxes.php:288
+msgid "ex. Project Year:"
+msgstr "örn. Proje Yılı:"
+
+#: ../lib/metaboxes.php:293
+msgid "Value 04 Description"
+msgstr "Değer 04 Açıklaması"
+
+#: ../lib/metaboxes.php:294
+msgid "ex. 2013"
+msgstr "örn. 2013"
+
+#: ../lib/metaboxes.php:299
+msgid "External Website"
+msgstr "Harici Website"
+
+#: ../lib/metaboxes.php:300
+msgid "ex. Website:"
+msgstr "örn. Website:"
+
+#: ../lib/metaboxes.php:305
+msgid "Website Address"
+msgstr "Website Adresi"
+
+#: ../lib/metaboxes.php:306
+msgid "ex. http://www.example.com"
+msgstr "örn. http://www.ornek.com"
+
+#: ../lib/metaboxes.php:311
+msgid "If Video Project"
+msgstr "If Video Projesi"
+
+#: ../lib/metaboxes.php:317
+msgid "Similar Portfolio Item Carousel"
+msgstr "Benzer Portföy Öge Karuseli"
+
+#: ../lib/metaboxes.php:318
+msgid "Display a carousel with similar portfolio items below project?"
+msgstr ""
+"Projenin altında benzer portföy ögeleriyle birlikte bir karusel "
+"görüntülensin mi?"
+
+#: ../lib/metaboxes.php:323
+msgid "Yes - Display Recent Projects"
+msgstr "Evet - Son Projeleri Görüntüle"
+
+#: ../lib/metaboxes.php:328
+msgid "ex. Similar Projects"
+msgstr "örn. Benzer Projeler"
+
+#: ../lib/metaboxes.php:337
+msgid "Portfolio Page Options"
+msgstr "Portföy Sayfası Seçenekleri"
+
+#: ../lib/metaboxes.php:346
+msgid "Columns"
+msgstr "Sütunlar"
+
+#: ../lib/metaboxes.php:351
+msgid "Four Column"
+msgstr "Dört Sütun"
+
+#: ../lib/metaboxes.php:352
+msgid "Three Column"
+msgstr "Üç Sütun"
+
+#: ../lib/metaboxes.php:353
+msgid "Two Column"
+msgstr "İki Sütun"
+
+#: ../lib/metaboxes.php:357
+msgid "Portfolio Work Types"
+msgstr "Portföy Çalışma Türleri"
+
+#: ../lib/metaboxes.php:364
+msgid "Order Items By"
+msgstr "Ögeleri Sırala"
+
+#: ../lib/metaboxes.php:369
+msgid "Menu Order"
+msgstr "Menü Sırası"
+
+#: ../lib/metaboxes.php:370
+#: ../themeoptions/extensions/edd/kad_icons/field_kad_icons.php:153
+#: ../themeoptions/extensions/edd/kad_icons/field_kad_icons.php:219
+#: ../themeoptions/extensions/edd/kad_slides/field_kad_slides.php:131
+#: ../themeoptions/extensions/edd/kad_slides/field_kad_slides.php:197
+#: ../themeoptions/inc/fields/slides/field_slides.php:133
+#: ../themeoptions/inc/fields/slides/field_slides.php:197
+msgid "Title"
+msgstr "Başlık"
+
+#: ../lib/metaboxes.php:371
+msgid "Date"
+msgstr "Tarih"
+
+#: ../lib/metaboxes.php:372
+msgid "Random"
+msgstr "Rastgele"
+
+#: ../lib/metaboxes.php:376
+msgid "Items per Page"
+msgstr "Sayfa başına Öge"
+
+#: ../lib/metaboxes.php:377
+msgid "How many portfolio items per page"
+msgstr "Her sayfada kaç portföy ögesi olsun"
+
+#: ../lib/metaboxes.php:399
+msgid "Set image height"
+msgstr "Resim yüksekliğini belirle"
+
+#: ../lib/metaboxes.php:400
+msgid "Default is 1:1 ratio <b>(Note: just input number, example: 350)</b>"
+msgstr "Varsayılan 1:1 orandır <b>(Not: sadece sayı girin, örneğin: 350)</b>"
+
+#: ../lib/metaboxes.php:405
+msgid "Display Item Work Types"
+msgstr "Öge Çalışma Türlerini Görüntüle"
+
+#: ../lib/metaboxes.php:412
+msgid "Display Item Excerpt"
+msgstr "Öge Özetini Görüntüle"
+
+#: ../lib/metaboxes.php:419
+msgid "Add Lightbox link in the top right of each item"
+msgstr "Her ögenin üst sağına Işık Kutusu bağlantısını ekle"
+
+#: ../lib/metaboxes.php:434
+msgid "Feature Page Options"
+msgstr "Öne Çıkan Sayfa Seçenekleri"
+
+#: ../lib/metaboxes.php:443
+msgid "Feature Options"
+msgstr "Öne Çıkma Seçenekleri"
+
+#: ../lib/metaboxes.php:444
+msgid "If image slider make sure images uploaded are at least 1140px wide."
+msgstr ""
+"Resim kaydırıcı kullanılıyorsa, yüklenen resimlerin en az 1140px genişlikte "
+"olduğundan emin olunuz."
+
+#: ../lib/metaboxes.php:461
+msgid ""
+"Default is: 1140 <b>(Note: just input number, example: 650, does not apply "
+"to Carousel slider)</b>"
+msgstr ""
+"Varsayılan: 1140 <b>(Not: sadece sayı girin, örneğin: 650, karusel "
+"kaydırıcıya uygulanamaz)</b>"
+
+#: ../lib/metaboxes.php:466
+msgid "Use Lightbox for Feature Image"
+msgstr "Öne Çıkan Resim için Işık Kutusu Kullan"
+
+#: ../lib/metaboxes.php:467
+msgid ""
+"If feature option is set to image, choose to use lightbox link with image."
+msgstr ""
+"Eğer öne çıkan özellik olarak resim kullanılıyorsa, resimle ışık kutusu "
+"bağlantısını kullanmayı tercih et."
+
+#: ../lib/metaboxes.php:485
+msgid "Blog List Options"
+msgstr "Blog Listeleme Seçenekleri"
+
+#: ../lib/metaboxes.php:494
+msgid "Blog Category"
+msgstr "Blog Kategorisi"
+
+#: ../lib/metaboxes.php:495
+msgid "Select all blog posts or a specific category to show"
+msgstr "Gösterilmek üzere tüm blog yazılarını veya belirli bir kategoriyi seç"
+
+#: ../lib/metaboxes.php:501
+msgid "How Many Posts Per Page"
+msgstr "Her Sayfada Kaç Yazı Olsun"
+
+#: ../lib/metaboxes.php:525
+msgid "Display Post Content as:"
+msgstr "Yazı İçeriğini şu şekilde görüntüle:"
+
+#: ../lib/metaboxes.php:530
+msgid "Summary"
+msgstr "Özet"
+
+#: ../lib/metaboxes.php:531
+msgid "Full"
+msgstr "Tam"
+
+#: ../lib/metaboxes.php:554
+msgid "Contact Page Options"
+msgstr "İletişim Sayfası Seçenekleri"
+
+#: ../lib/metaboxes.php:563
+msgid "Use Contact Form"
+msgstr "İletişim Formu Kullan"
+
+#: ../lib/metaboxes.php:573
+msgid "Contact Form Title"
+msgstr "İletişim Formu Başlığı"
+
+#: ../lib/metaboxes.php:574
+msgid "ex. Send us an Email"
+msgstr "örn. Bize bir Eposta gönderin"
+
+#: ../lib/metaboxes.php:579
+msgid "Use Map"
+msgstr "Harita Kullan"
+
+#: ../lib/metaboxes.php:589
+msgid "Address"
+msgstr "Adres"
+
+#: ../lib/metaboxes.php:590
+msgid "Enter your Location"
+msgstr "Konumunuzu girin"
+
+#: ../lib/metaboxes.php:595
+msgid "Map Type"
+msgstr "Harita Türü"
+
+#: ../lib/metaboxes.php:600
+msgid "ROADMAP"
+msgstr "YOL HARİTASI"
+
+#: ../lib/metaboxes.php:601
+msgid "HYBRID"
+msgstr "HİBRİT"
+
+#: ../lib/metaboxes.php:602
+msgid "TERRAIN"
+msgstr "ARAZİ"
+
+#: ../lib/metaboxes.php:603
+msgid "SATELLITE"
+msgstr "UYDU"
+
+#: ../lib/metaboxes.php:607
+msgid "Map Zoom Level"
+msgstr "Harita Yakınlaştırma Düzeyi"
+
+#: ../lib/metaboxes.php:608
+msgid "A good place to start is 15"
+msgstr "Başlangıç için en iyisi 15'tir"
+
+#: ../lib/metaboxes.php:613
+msgid "1 (World View)"
+msgstr "1 (Dünya Görünümü)"
+
+#: ../lib/metaboxes.php:633
+msgid "21 (Street View)"
+msgstr "21 (Sokak Görünümü)"
+
+#: ../lib/metaboxes.php:637
+msgid "Map Height"
+msgstr "Harita Yüksekliği"
+
+#: ../lib/metaboxes.php:638
+msgid "Default is 300"
+msgstr "Varsayılan 300'dür"
+
+#: ../lib/metaboxes.php:646
+msgid "Sidebar Options"
+msgstr "Kenar Çubuğu Seçenekleri"
+
+#: ../lib/scripts.php:33
+msgid ""
+"Sorry, no products matched your selection. Please choose a different "
+"combination."
+msgstr ""
+"Üzgünüz, seçiminize uygun ürün bulunamadı. Lütfen farklı bir kombinasyon "
+"tercih ediniz."
+
+#: ../lib/scripts.php:34
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+"Üzgünüz, bu ürün mevcut değildir. Lütfen farklı bir kombinasyon tercih "
+"ediniz."
+
+#: ../lib/utils.php:69
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Günlük Arşivler: %s"
+
+#: ../lib/utils.php:71
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Haftalık Arşivler: %s"
+
+#: ../lib/utils.php:73
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Yıllık Arşivler: %s"
+
+#: ../lib/utils.php:75
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Yazar Arşivleri: %s"
+
+#: ../lib/utils.php:81
+#, php-format
+msgid "Search Results for %s"
+msgstr "%s için Arama Sonuçları"
+
+#: ../lib/utils.php:84
+msgid "Not Found"
+msgstr "Bulunamadı"
+
+#: ../lib/virtuetoolkit-activate.php:37
+msgid "Something went wrong with the plugin API."
+msgstr "Eklenti API'siyle ilgili bir şeyler yanlış gitti."
+
+#: ../lib/virtuetoolkit-activate.php:50
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tüm eklentiler, başarıyla kuruldu ve etkinleştirildi. %s"
+
+#: ../lib/widgets.php:6 ../lib/widgets.php:59
+msgid "Primary Sidebar"
+msgstr "Birincil Kenar Çubuğu"
+
+#: ../lib/widgets.php:49 ../templates/header.php:40
+msgid "Topbar Widget"
+msgstr "Üst Çubuk Bileşeni"
+
+#: ../lib/widgets.php:71 ../lib/widgets.php:112 ../lib/widgets.php:143
+msgid "Footer Column 1"
+msgstr "Alt Bilgi Sütunu 1"
+
+#: ../lib/widgets.php:81 ../lib/widgets.php:122 ../lib/widgets.php:153
+msgid "Footer Column 2"
+msgstr "Alt Bilgi Sütunu 2"
+
+#: ../lib/widgets.php:91 ../lib/widgets.php:132
+msgid "Footer Column 3"
+msgstr "Alt Bilgi Sütunu 3"
+
+#: ../lib/widgets.php:101
+msgid "Footer Column 4"
+msgstr "Alt Bilgi Sütunu 4"
+
+#: ../lib/widgets.php:177
+msgid "Use this widget to add a Vcard to your site"
+msgstr "Sitenize bir Vcard eklemek için bu bileşeni kullan"
+
+#: ../lib/widgets.php:178
+msgid "Virtue: Contact/Vcard"
+msgstr "Virtue: İletişim/Vcard"
+
+#: ../lib/widgets.php:205
+msgid "vCard"
+msgstr "vCard"
+
+#: ../lib/widgets.php:277 ../lib/widgets.php:440 ../lib/widgets.php:597
+#: ../lib/widgets.php:735
+msgid "Title:"
+msgstr "Başlık:"
+
+#: ../lib/widgets.php:281
+msgid "Company Name:"
+msgstr "Şirket Adı:"
+
+#: ../lib/widgets.php:289
+msgid "Street Address:"
+msgstr "Açık Adres:"
+
+#: ../lib/widgets.php:293
+msgid "City/Locality:"
+msgstr "İl:"
+
+#: ../lib/widgets.php:297
+msgid "State/Region:"
+msgstr "İlçe:"
+
+#: ../lib/widgets.php:301
+msgid "Zipcode/Postal Code:"
+msgstr "Posta Kodu:"
+
+#: ../lib/widgets.php:305 ../woocommerce/order/order-details.php:110
+msgid "Telephone:"
+msgstr "Telefon:"
+
+#: ../lib/widgets.php:309 ../woocommerce/order/order-details.php:109
+msgid "Email:"
+msgstr "Eposta:"
+
+#: ../lib/widgets.php:320
+msgid "Simple way to add Social Icons"
+msgstr "Sosyal Simgeler eklemenin basit yolu"
+
+#: ../lib/widgets.php:321
+msgid "Virtue: Social Links"
+msgstr "Virtue: Sosyal Bağlantılar"
+
+#: ../lib/widgets.php:444
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: ../lib/widgets.php:448
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: ../lib/widgets.php:452
+msgid "Instagram:"
+msgstr "Instagram:"
+
+#: ../lib/widgets.php:456
+msgid "GooglePlus:"
+msgstr "GooglePlus:"
+
+#: ../lib/widgets.php:460
+msgid "Flickr:"
+msgstr "Flickr:"
+
+#: ../lib/widgets.php:464
+msgid "Vimeo:"
+msgstr "Vimeo:"
+
+#: ../lib/widgets.php:468
+msgid "Youtube:"
+msgstr "Youtube:"
+
+#: ../lib/widgets.php:472
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: ../lib/widgets.php:476
+msgid "Dribbble:"
+msgstr "Dribbble:"
+
+#: ../lib/widgets.php:480
+msgid "Linkedin:"
+msgstr "Linkedin:"
+
+#: ../lib/widgets.php:484
+msgid "Tumblr:"
+msgstr "Tumblr:"
+
+#: ../lib/widgets.php:488
+msgid "VK:"
+msgstr "VK:"
+
+#: ../lib/widgets.php:492
+msgid "RSS:"
+msgstr "RSS:"
+
+#: ../lib/widgets.php:506
+msgid "This shows the most recent posts on your site with a thumbnail"
+msgstr "Bu, sitenizdeki en son yazıları küçük bir resimle gösterir"
+
+#: ../lib/widgets.php:507
+msgid "Virtue: Recent Posts"
+msgstr "Virtue: Son Yazılar"
+
+#: ../lib/widgets.php:532
+msgid "Recent Posts"
+msgstr "Son Yazılar"
+
+#: ../lib/widgets.php:600
+msgid "Number of posts to show:"
+msgstr "Gösterilecek yazı sayısı:"
+
+#: ../lib/widgets.php:603
+msgid "Limit to Catagory (Optional):"
+msgstr "Kategori Limiti (Opsiyonel):"
+
+#: ../lib/widgets.php:614
+msgid ""
+"This shows a grid of featured images from recent posts or portfolio items"
+msgstr ""
+"Bu, son yazılardaki veya portföy ögelerindeki öne çıkan resimleri bir "
+"karelaj olarak gösterir"
+
+#: ../lib/widgets.php:615
+msgid "Virtue: Image Grid"
+msgstr "Virtue: Resim Karelajı"
+
+#: ../lib/widgets.php:640
+msgid "Post Gallery"
+msgstr "Yazı Galerisi"
+
+#: ../lib/widgets.php:738
+msgid "Grid Choice:"
+msgstr "Karelaj Tercihi:"
+
+#: ../lib/widgets.php:740
+msgid "Blog Posts"
+msgstr "Blog Yazıları"
+
+#: ../lib/widgets.php:741
+msgid "Portfolio"
+msgstr "Portföy"
+
+#: ../lib/widgets.php:744
+msgid "If Post - Choose Category (Optional):"
+msgstr "Yazı ise - Kategori Seçin (Opsiyonel):"
+
+#: ../lib/widgets.php:747
+msgid "If Portfolio - Choose Type (Optional):"
+msgstr "Portföy ise - Tür Seçin (Opsiyonel):"
+
+#: ../lib/widgets.php:750
+msgid "Number of images to show:"
+msgstr "Gösterilecek resim sayısı:"
+
+#: ../lib/widgets.php:768
+msgid "This allows for an image and a simple about text."
+msgstr "Bu, bir resmi ve basit bir metni sağlar."
+
+#: ../lib/widgets.php:769
+msgid "Virtue: About with Image"
+msgstr "Virtue: Resim Hakkında"
+
+#: ../lib/widgets.php:797
+#: ../themeoptions/extensions/edd/kad_slides/field_kad_slides.php:119
+#: ../themeoptions/extensions/edd/kad_slides/field_kad_slides.php:188
+#: ../themeoptions/inc/fields/background/field_background.php:306
+#: ../themeoptions/inc/fields/media/field_media.php:155
+#: ../themeoptions/inc/fields/slides/field_slides.php:121
+#: ../themeoptions/inc/fields/slides/field_slides.php:190
+msgid "Upload"
+msgstr "Yükle"
+
+#: ../lib/cmb/init.php:243
+msgid "Clear"
+msgstr "Temizle"
+
+#: ../lib/cmb/init.php:245
+msgid "Select Color"
+msgstr "Renk Seç"
+
+#: ../lib/cmb/init.php:246
+msgid "Current Color"
+msgstr "Mevcut Renk"
+
+#: ../lib/cmb/init.php:1185
+msgid "Save"
+msgstr "Kaydet"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr "Lütfen Tekrar Deneyin"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr "Gömülü Olanı Kaldır"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+"%s için Bulunan Gömülü Sonuç Sayısı. Daha fazla bilgiyi buradan görüntüleyin:"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:150
+msgid "Add Row"
+msgstr "Satır Ekle"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:178
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+#: ../themeoptions/extensions/edd/kad_icons/field_kad_icons.php:127
+#: ../themeoptions/extensions/edd/kad_icons/field_kad_icons.php:193
+#: ../themeoptions/extensions/edd/kad_slides/field_kad_slides.php:125
+#: ../themeoptions/extensions/edd/kad_slides/field_kad_slides.php:190
+#: ../themeoptions/inc/fields/background/field_background.php:312
+#: ../themeoptions/inc/fields/media/field_media.php:161
+#: ../themeoptions/inc/fields/multi_text/field_multi_text.php:75
+#: ../themeoptions/inc/fields/multi_text/field_multi_text.php:79
+#: ../themeoptions/inc/fields/multi_text/field_multi_text.php:82
+#: ../themeoptions/inc/fields/slides/field_slides.php:128
+#: ../themeoptions/inc/fields/slides/field_slides.php:192
+msgid "Remove"
+msgstr "Kaldır"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:523
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:563
+msgid "Add or Upload File"
+msgstr "Dosya Ekle veya Yükle"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:536
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:582
+msgid "Remove Image"
+msgstr "Resmi Kaldır"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+msgid "File:"
+msgstr "Dosya:"
+
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:547
+#: ../lib/cmb/helpers/cmb_Meta_Box_types.php:590
+#: ../themeoptions/inc/fields/import_export/import_export.php:109
+msgid "Download"
+msgstr "İndir"
+
+#: ../templates/comment.php:7
+msgid "(Edit)"
+msgstr "(Düzenle)"
+
+#: ../templates/comments.php:8
+#, php-format
+msgid "One Response "
+msgid_plural "%1$s Responses "
+msgstr[0] "Bir Yanıt"
+msgstr[1] "%1$s Yanıt"
+
+#: ../templates/comments.php:18
+msgid "&larr; Older comments"
+msgstr "&larr; Eski yorumlar"
+
+#: ../templates/comments.php:21
+msgid "Newer comments &rarr;"
+msgstr "Yeni yorumlar &rarr;"
+
+#: ../templates/comments.php:31 ../templates/comments.php:43
+msgid "Comments are closed."
+msgstr "Yorumlar kapalıdır."
+
+#: ../templates/comments.php:54
+msgid "Leave a Reply"
+msgstr "Bir Cevap Yazın"
+
+#: ../templates/comments.php:54 ../woocommerce/single-product-reviews.php:58
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%s kullanıcısına bir Cevap Yazın"
+
+#: ../templates/comments.php:57
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Bir yorum göndermek için <a href=\"%s\">giriş yapmış</a> olmalısınız."
+
+#: ../templates/comments.php:62
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "<a href=\"%s/wp-admin/profile.php\">%s</a> olarak giriş yapıldı."
+
+#: ../templates/comments.php:63
+msgid "Log out of this account"
+msgstr "Bu hesaptan çıkış yap"
+
+#: ../templates/comments.php:63
+msgid "Log out &raquo;"
+msgstr "Çıkış yap &raquo;"
+
+#: ../templates/comments.php:68 ../templates/comments.php:72
+msgid " <span>*</span>"
+msgstr " <span>*</span>"
+
+#: ../templates/comments.php:72
+msgid "Email (will not be published)"
+msgstr "Eposta (yayınlanmayacaktır)"
+
+#: ../templates/comments.php:76
+msgid "Website"
+msgstr "Websitesi"
+
+#: ../templates/comments.php:81
+msgid "Comment"
+msgstr "Yorum"
+
+#: ../templates/comments.php:83
+msgid "Submit Comment"
+msgstr "Yorum Gönder"
+
+#: ../templates/content-fullpost.php:78
+#: ../templates/content-fullpostfull.php:78 ../templates/content-single.php:94
+#: ../templates/content-singleportfolio.php:260
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: ../templates/entry-meta-subhead.php:3
+msgid "by"
+msgstr "Yazarı:"
+
+#: ../templates/entry-meta-subhead.php:6
+msgid "posted in:"
+msgstr "Kategori:"
+
+#: ../templates/entry-meta.php:2
+msgid "By"
+msgstr "Tarafından"
+
+#: ../templates/header.php:77
+msgid "Menu"
+msgstr "Menü"
+
+#: ../templates/recentportfolio-carousel.php:2
+msgid "Recent Projects"
+msgstr "Son Projeler"
+
+#: ../templates/similarblog-carousel.php:2
+msgid "Similar Posts"
+msgstr "Benzer Yazılar"
+
+#: ../templates/home/blog-home.php:3
+msgid "Latest from the Blog"
+msgstr "Blog'dan Son Yazılar"
+
+#: ../templates/home/blog-home.php:74
+msgid "READ MORE"
+msgstr "DAHA FAZLASINI OKU"
+
+#: ../templates/home/portfolio-carousel.php:2
+msgid "Featured Projects"
+msgstr "Öne Çıkan Projeler"
+
+#: ../themeoptions/framework.php:203
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr "%1$s kullanılarak Seçenekler paneli yaratıldı"
+
+#: ../themeoptions/framework.php:203
+msgid "Redux Framework"
+msgstr "Redux Framework"
+
+#: ../themeoptions/framework.php:206 ../themeoptions/framework.php:209
+#: ../themeoptions/framework.php:1262
+msgid "Options"
+msgstr "Seçenekler"
+
+#: ../themeoptions/framework.php:489
+msgid "Dismiss"
+msgstr "Son Ver"
+
+#: ../themeoptions/framework.php:1648
+#: ../themeoptions/extensions/customizer/extension_customizer.php:408
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+"Kaydedilmemiş değişikler yaptınız. Bunları şimdi kaydetmek ister misiniz?"
+
+#: ../themeoptions/framework.php:1649
+#: ../themeoptions/extensions/customizer/extension_customizer.php:409
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+"Emin misiniz? Sıfırlayarak, tüm özelleştirilen değerleri kaybedeceksiniz."
+
+#: ../themeoptions/framework.php:1650
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+"Emin misiniz? Sıfırlayarak, bu bölümdeki tüm özelleştirilen değerleri "
+"kaybedeceksiniz."
+
+#: ../themeoptions/framework.php:1651
+#: ../themeoptions/extensions/customizer/extension_customizer.php:410
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+"Mevcut seçenekleriniz, bu değerlerle yer değiştirecektir. Devam etmek "
+"istiyor musunuz?"
+
+#: ../themeoptions/framework.php:1652
+msgid "Please Wait"
+msgstr "Lütfen Bekleyin"
+
+#: ../themeoptions/framework.php:1788
+msgid "Hints"
+msgstr "İpuçları"
+
+#: ../themeoptions/framework.php:1789
+msgid "<p>"
+msgstr "<p>"
+
+#: ../themeoptions/framework.php:2631
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr "Uyarı- Bu seçenek paneli, Javascript olmadan düzgün çalışmayacaktır!"
+
+#: ../themeoptions/framework.php:2693
+msgid "Expand"
+msgstr "Genişlet"
+
+#: ../themeoptions/framework.php:2695 ../themeoptions/framework.php:2910
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: ../themeoptions/framework.php:2697 ../themeoptions/framework.php:2912
+msgid "Reset Section"
+msgstr "Bölümü Sıfırla"
+
+#: ../themeoptions/framework.php:2699 ../themeoptions/framework.php:2914
+msgid "Reset All"
+msgstr "Tümünü Sıfırla"
+
+#: ../themeoptions/framework.php:2702 ../themeoptions/framework.php:2917
+msgid "Working..."
+msgstr "Çalışıyor..."
+
+#: ../themeoptions/framework.php:2714
+msgid "Settings Imported!"
+msgstr "Ayarlar İçe Aktarıldı!"
+
+#: ../themeoptions/framework.php:2727
+msgid "All Defaults Restored!"
+msgstr "Tüm Varsayılan Ayarlara Dönüldü!"
+
+#: ../themeoptions/framework.php:2739
+msgid "Section Defaults Restored!"
+msgstr "Bölüm Varsayılan Ayarlarına Dönüldü!"
+
+#: ../themeoptions/framework.php:2745
+msgid "Settings Saved!"
+msgstr "Ayarlar Kaydedildi!"
+
+#: ../themeoptions/framework.php:2752
+msgid "Settings have changed, you should save them!"
+msgstr "Ayarlar değiştirildi, onları kaydetmelisiniz!"
+
+#: ../themeoptions/framework.php:2753
+msgid "error(s) were found!"
+msgstr "hata(lar) bulundu!"
+
+#: ../themeoptions/framework.php:2754
+msgid "warning(s) were found!"
+msgstr "uyarı(lar) bulundu!"
+
+#: ../themeoptions/framework.php:2800 ../themeoptions/framework.php:2860
+msgid "System Info"
+msgstr "Sistem Bilgisi"
+
+#: ../themeoptions/options.php:38
+msgid "Copy and Paste this code into the theme options import feature"
+msgstr "Bu kodu, tema ayarları içeri aktar özelliğine Kopyala ve Yapıştır"
+
+#: ../themeoptions/options.php:311
+msgid "There are no previous options"
+msgstr "Hiçbir önceki seçenek yoktur"
+
+#: ../themeoptions/options.php:323
+msgid "Main Settings"
+msgstr "Ana Ayarlar"
+
+#: ../themeoptions/options.php:325
+msgid "Welcome to Virtue Theme Options"
+msgstr "Virtue Tema Ayarlarına Hoş Geldiniz"
+
+#: ../themeoptions/options.php:326
+msgid "This theme was developed by"
+msgstr "Tema Geliştiricisi:"
+
+#: ../themeoptions/options.php:327
+msgid "For theme documentation visit"
+msgstr "Tema dokümantasyonu için burayı ziyaret ediniz"
+
+#: ../themeoptions/options.php:329
+msgid "For support please visit"
+msgstr "Destek için lütfen burayı ziyaret ediniz"
+
+#: ../themeoptions/options.php:337
+msgid "Site Layout Style"
+msgstr "Site Yerleşim Stili"
+
+#: ../themeoptions/options.php:338
+msgid "Select Boxed or Wide Site Layout Style"
+msgstr "Kutulanmış veya Geniş Site Yerleşim Stilini Seç"
+
+#: ../themeoptions/options.php:349
+msgid "Footer Widget Layout"
+msgstr "Alt Bilgi Bileşen Yerleşimi"
+
+#: ../themeoptions/options.php:350
+msgid "Select how many columns for footer widgets"
+msgstr "Alt bilgi bileşenleri için kaç sütun olduğunu seç"
+
+#: ../themeoptions/options.php:361
+msgid "Logo Options"
+msgstr "Logo Seçenekleri"
+
+#: ../themeoptions/options.php:367
+msgid "Logo Layout"
+msgstr "Logo Yerleşimi"
+
+#: ../themeoptions/options.php:368
+msgid "Choose how you want your logo to be laid out"
+msgstr "Logonuzu nasıl yerleştirmek istediğinizi seçin"
+
+#: ../themeoptions/options.php:380
+msgid "Logo"
+msgstr "Logo"
+
+#: ../themeoptions/options.php:382
+msgid "Upload your Logo. If left blank theme will use site name."
+msgstr "Logonuzu Yükleyin. Boş bırakılırsa, tema, site ismini kullanacaktır."
+
+#: ../themeoptions/options.php:388
+msgid "Upload Your @2x Logo for Retina Screens"
+msgstr "Retina Ekranlar için @2x Logonuzu Yükleyin"
+
+#: ../themeoptions/options.php:390
+msgid "Should be twice the pixel size of your normal logo."
+msgstr "Normal logonuzun iki katı piksel büyüklüğünde olmalıdır."
+
+#: ../themeoptions/options.php:395
+msgid "Sitename Logo Font"
+msgstr "Site Adı Logo Yazı Tipi"
+
+#: ../themeoptions/options.php:409
+msgid "Choose size and style your sitename, if you don't use an image logo."
+msgstr ""
+"Bir logo resmi kullanmıyorsanız, site adınızın boyutunu ve stilini seçin."
+
+#: ../themeoptions/options.php:420
+msgid "Site Tagline - Below Logo\""
+msgstr "Site Sloganı - Logo Altında"
+
+#: ../themeoptions/options.php:421
+msgid "An optional line of text below your logo"
+msgstr "Logonuzun altında yer alan opsiyonel metin satırı"
+
+#: ../themeoptions/options.php:429
+msgid "Site Tagline Font"
+msgstr "Site Sloganı Yazı Tipi"
+
+#: ../themeoptions/options.php:441
+msgid "Choose size and style your site tagline"
+msgstr "Site sloganınızın boyutu ve stilini seçin"
+
+#: ../themeoptions/options.php:452 ../themeoptions/options.php:462
+#: ../themeoptions/options.php:472 ../themeoptions/options.php:482
+msgid "Logo Spacing"
+msgstr "Logo Boşluğu"
+
+#: ../themeoptions/options.php:453 ../themeoptions/options.php:493
+msgid "Top Spacing"
+msgstr "Üst Boşluk"
+
+#: ../themeoptions/options.php:463 ../themeoptions/options.php:503
+msgid "Bottom Spacing"
+msgstr "Alt Boşluk"
+
+#: ../themeoptions/options.php:473
+msgid "Left Spacing"
+msgstr "Sol Boşluk"
+
+#: ../themeoptions/options.php:483
+msgid "Right Spacing"
+msgstr "Sağ Boşluk"
+
+#: ../themeoptions/options.php:492 ../themeoptions/options.php:502
+msgid "Primary Menu Spacing"
+msgstr "Birincil Menü Boşluğu"
+
+#: ../themeoptions/options.php:513
+msgid "Sitewide Banner"
+msgstr "Site Geneli Afişi"
+
+#: ../themeoptions/options.php:515
+msgid "Upload a banner for bottom of header."
+msgstr "Üst Başlığın altı için bir afiş yükleyin."
+
+#: ../themeoptions/options.php:522
+msgid "Topbar Settings"
+msgstr "Üst Çubuk Ayarları"
+
+#: ../themeoptions/options.php:527
+msgid "Use Topbar?"
+msgstr "Üst Çubuk Kullanılsın mı?"
+
+#: ../themeoptions/options.php:528
+msgid "Choose to show or hide topbar"
+msgstr "Üst çubuğu göstermeyi veya gizlemeyi seçin"
+
+#: ../themeoptions/options.php:534
+msgid "Use Topbar Icon Menu?"
+msgstr "Üst Çubuk İkon Menüsü Kullanılsın mı?"
+
+#: ../themeoptions/options.php:535
+msgid "Choose to show or hide topbar icon Menu"
+msgstr "Üst çubuk ikon menüsünü göstermeyi veya gizlemeyi seçin"
+
+#: ../themeoptions/options.php:541
+msgid "Topbar Icon Menu"
+msgstr "Üst Çubuk İkon Menüsü"
+
+#: ../themeoptions/options.php:542
+msgid "Choose your icons for the topbar icon menu."
+msgstr "Üst çubuk ikon menüsü için ikonlarınızı seçin."
+
+#: ../themeoptions/options.php:548
+msgid "Show Cart total in topbar?"
+msgstr "Üst çubukta Sepet Toplamı gösterilsin mi?"
+
+#: ../themeoptions/options.php:549
+msgid "This only works if using woocommerce"
+msgstr "Bu, sadece WooCommerce kullanıyorsanız çalışır"
+
+#: ../themeoptions/options.php:555
+msgid "Display Search in Topbar?"
+msgstr "Üst çubukta Arama gösterilsin mi?"
+
+#: ../themeoptions/options.php:556
+msgid "Choose to show or hide search in topbar"
+msgstr "Üst çubukta aramayı göstermeyi veya gizlemeyi seçin"
+
+#: ../themeoptions/options.php:562
+msgid "Enable widget area in right of Topbar?"
+msgstr "Üst çubuğun sağında bileşenler alanı etkinleştirilsin mi?"
+
+#: ../themeoptions/options.php:563
+msgid ""
+"Note this will hide remove search (you can re-enable it my adding it to the "
+"widget area)"
+msgstr ""
+"Bunun aramayı gizleyeceğini dikkate alınız (Aramayı, bileşenler alanına "
+"ekleyerek de tekrar etkinleşebilirsiniz)"
+
+#: ../themeoptions/options.php:569
+msgid "Topbar Layout Switch"
+msgstr "Üst Çubuk Yerleşim Değişimi"
+
+#: ../themeoptions/options.php:570
+msgid "This moves the left items to the right and right items to the left."
+msgstr "Bu, soldaki ögeleri sağa, sağdaki ögeleri sola taşır."
+
+#: ../themeoptions/options.php:578
+msgid "Slider Settings"
+msgstr "Kaydırıcı Ayarları"
+
+#: ../themeoptions/options.php:579
+msgid "Home Page Slider Options"
+msgstr "Anasayfa Kaydırıcı Seçenekleri"
+
+#: ../themeoptions/options.php:584
+msgid "Choose a Home Image Slider"
+msgstr "Bir Anasayfa Resim Kaydırıcı Seç"
+
+#: ../themeoptions/options.php:585
+msgid "If you don't want an image slider on your home page choose none."
+msgstr "Anasayfanızda bir resim kaydırıcı istemiyorsanız, hiçbirini seçin."
+
+#: ../themeoptions/options.php:594 ../themeoptions/options.php:697
+msgid "Slider Images"
+msgstr "Kaydırıcı Resimleri"
+
+#: ../themeoptions/options.php:595 ../themeoptions/options.php:698
+msgid "Use large images for best results."
+msgstr "En iyi sonuçlar için büyük resimler kullanın."
+
+#: ../themeoptions/options.php:601 ../themeoptions/options.php:705
+msgid "Slider Max Height"
+msgstr "Kaydırıcı Maksimum Yüksekliği"
+
+#: ../themeoptions/options.php:602 ../themeoptions/options.php:612
+#: ../themeoptions/options.php:706 ../themeoptions/options.php:717
+msgid "Note: does not work if images are smaller than max."
+msgstr "Not: resimler, maksimumdan küçükse çalışmaz."
+
+#: ../themeoptions/options.php:611 ../themeoptions/options.php:716
+msgid "Slider Max Width"
+msgstr "Kaydırıcı Maksimum Genişliği"
+
+#: ../themeoptions/options.php:621 ../themeoptions/options.php:727
+msgid "Auto Play?"
+msgstr "Otomatik Oynatılsın mı?"
+
+#: ../themeoptions/options.php:622 ../themeoptions/options.php:728
+msgid "This determines if a slider automatically scrolls"
+msgstr "Bu, kaydırıcının otomatik ilerlemesini belirler"
+
+#: ../themeoptions/options.php:628 ../themeoptions/options.php:735
+msgid "Slider Pause Time"
+msgstr "Kaydırıcı Bekleme Süresi"
+
+#: ../themeoptions/options.php:629 ../themeoptions/options.php:736
+msgid "How long to pause on each slide, in milliseconds."
+msgstr "Milisaniye biriminden her slaytın ne kadar bekleyeceği"
+
+#: ../themeoptions/options.php:638 ../themeoptions/options.php:746
+msgid "Transition Type"
+msgstr "Geçiş Türü"
+
+#: ../themeoptions/options.php:639 ../themeoptions/options.php:747
+msgid "Choose a transition type"
+msgstr "Bir geçiş türü seçin"
+
+#: ../themeoptions/options.php:646 ../themeoptions/options.php:755
+msgid "Slider Transition Time"
+msgstr "Kaydırıcı Geçiş Süresi"
+
+#: ../themeoptions/options.php:647 ../themeoptions/options.php:756
+msgid "How long for slide transitions, in milliseconds."
+msgstr "Milisaniye biriminden Slayt geçişlerinin ne kadar süreceği"
+
+#: ../themeoptions/options.php:656 ../themeoptions/options.php:766
+msgid "Show Captions?"
+msgstr "Resim Yazıları Gösterilsin mi?"
+
+#: ../themeoptions/options.php:657 ../themeoptions/options.php:767
+msgid "Choose to show or hide captions"
+msgstr "Resim yazılarının gösterilmesini veya gizlenmesini seçin"
+
+#: ../themeoptions/options.php:663 ../themeoptions/options.php:774
+msgid "Video Embed Code"
+msgstr "Gömülü Video Kodu"
+
+#: ../themeoptions/options.php:664 ../themeoptions/options.php:775
+msgid "If your using a video on the home page place video embed code here."
+msgstr ""
+"Anasayfada bir video kullanıyorsanız, gömülü video kodunu buraya yerleştirin."
+
+#: ../themeoptions/options.php:673
+msgid "Mobile Slider"
+msgstr "Mobil Kaydırıcı"
+
+#: ../themeoptions/options.php:674
+msgid "Create a more lightweight home slider for your mobile visitors."
+msgstr "Mobil ziyaretçiler için daha hafif bir anasayfa kaydırıcı yaratın."
+
+#: ../themeoptions/options.php:679
+msgid "Would you like to use this feature?"
+msgstr "Bu özelliği kullanmak ister misiniz?"
+
+#: ../themeoptions/options.php:680
+msgid ""
+"Choose if you would like to show a different slider on your home page for "
+"your mobile visitors."
+msgstr ""
+"Anasayfanızda mobil ziyaretçileriniz için farklı bir kaydırıcı göstermek "
+"isterseniz, bunu tercih edin."
+
+#: ../themeoptions/options.php:686
+msgid "Choose a Slider for Mobile"
+msgstr "Mobil için bir Kaydırıcı Seç"
+
+#: ../themeoptions/options.php:687
+msgid "Choose which slider you would like to show for mobile viewers."
+msgstr ""
+"Mobilden görüntüleyenler için hangi kaydırıcının gösterileceğini seçin."
+
+#: ../themeoptions/options.php:784
+msgid "Home Layout"
+msgstr "Anasayfa Yerleşimi"
+
+#: ../themeoptions/options.php:791
+msgid "Display a sidebar on the Home Page?"
+msgstr "Anasayfada bir kenar çubuğu gösterilsin mi?"
+
+#: ../themeoptions/options.php:792
+msgid "This determines if there is a sidebar on the home page."
+msgstr "Bu, anasayfa bir kenar çubuğu olup olmamasını belirler."
+
+#: ../themeoptions/options.php:802
+msgid "Choose a Sidebar for your Home Page"
+msgstr "Anasayfanız için bir Kenar Çubuğu seçin"
+
+#: ../themeoptions/options.php:818
+msgid "Latest Blog Posts"
+msgstr "Son Blog Yazıları"
+
+#: ../themeoptions/options.php:819
+msgid "Portfolio Carousel"
+msgstr "Portföy Karuseli"
+
+#: ../themeoptions/options.php:820 ../themeoptions/options.php:913
+msgid "Icon Menu"
+msgstr "İkon Menüsü"
+
+#: ../themeoptions/options.php:824
+msgid "Page Title"
+msgstr "Sayfa Başlığı"
+
+#: ../themeoptions/options.php:825
+msgid "Page Content"
+msgstr "Sayfa İçeriği"
+
+#: ../themeoptions/options.php:833
+msgid "Home Blog Settings"
+msgstr "Anasayfa Blog Ayarları"
+
+#: ../themeoptions/options.php:838
+msgid "Home Blog Title"
+msgstr "Anasayfa Blog Başlığı"
+
+#: ../themeoptions/options.php:839
+msgid "ex: Latest from the blog"
+msgstr "örn: Blogdan son yazılar"
+
+#: ../themeoptions/options.php:844
+msgid "Choose How many posts on Homepage"
+msgstr "Anasayfada kaç adet yazı olacağını seçin"
+
+#: ../themeoptions/options.php:855
+msgid "Limit posts to a Category"
+msgstr "Yazıları bir Kategoriye Sınırla"
+
+#: ../themeoptions/options.php:856
+msgid "Leave blank to select all"
+msgstr "Hepsini seçmek için boş bırakın"
+
+#: ../themeoptions/options.php:863
+msgid "Home Portfolio Carousel Settings"
+msgstr "Anasayfa Portföy Karuseli Ayarları"
+
+#: ../themeoptions/options.php:868
+msgid "Home Portfolio Carousel title"
+msgstr "Anasayfa Portföy Karuseli Başlığı"
+
+#: ../themeoptions/options.php:869
+msgid "ex: Portfolio Carousel title"
+msgstr "örn: Portföy Karuseli Başlığı"
+
+#: ../themeoptions/options.php:876
+msgid "Portfolio Carousel Category Type"
+msgstr "Portföy Karuseli Kategori Türü"
+
+#: ../themeoptions/options.php:877
+msgid "Leave blank to select all types"
+msgstr "Tüm türleri seçmek için boş bırakın"
+
+#: ../themeoptions/options.php:884
+msgid "Choose how many portfolio items are in carousel"
+msgstr "Karuselde kaç adet portföy ögesi olacağını seçin"
+
+#: ../themeoptions/options.php:893
+msgid "Portfolio Carousel Order by"
+msgstr "Portföy Karuselini şuna göre sırala"
+
+#: ../themeoptions/options.php:894
+msgid "Choose how the portfolio items should be ordered in the carousel."
+msgstr "Portföy ögelerinin karuselde nasıl sıralanacağını seçin"
+
+#: ../themeoptions/options.php:902
+msgid "Display Portfolio Types under Title"
+msgstr "Portföy Türlerini Başlık altında Görüntüle"
+
+#: ../themeoptions/options.php:908
+msgid "Home Icon Menu"
+msgstr "Anasayfa İkon Menüsü"
+
+#: ../themeoptions/options.php:914
+msgid "Choose your icons for the icon menu."
+msgstr "İkon menüsü için ikonlarınızı seçin."
+
+#: ../themeoptions/options.php:920
+msgid "Choose how many columns in each row"
+msgstr "Her satırda kaç sütun olacağını seçin"
+
+#: ../themeoptions/options.php:929
+msgid "Page Content Options"
+msgstr "Sayfa İçeriği Seçenekleri"
+
+#: ../themeoptions/options.php:934
+msgid "Latest Post Display"
+msgstr "Son Yazıların Görüntülenmesi"
+
+#: ../themeoptions/options.php:935
+msgid ""
+"If Latest Post page is font page. Choose to show full post or post excerpt."
+msgstr ""
+"Eğer Son Yazılar sayfası ön sayfa ise. Tüm yazının veya yazı özetinin "
+"görüntülenmesini seçin."
+
+#: ../themeoptions/options.php:947
+msgid "Shop Settings"
+msgstr "Mağaza Ayarları"
+
+#: ../themeoptions/options.php:948
+msgid "Shop Archive Page Settings"
+msgstr "Mağaza Arşiv Sayfası Ayarları"
+
+#: ../themeoptions/options.php:954
+msgid "Display the sidebar on shop archives?"
+msgstr "Mağaza arşivlerinde kenar çubuğu görüntülensin mi?"
+
+#: ../themeoptions/options.php:955
+msgid "This determines if there is a sidebar on the shop and category pages."
+msgstr ""
+"Bu, mağaza ve kategori sayfalarında bir kenar çubuğunun olup olmayacağını "
+"belirler."
+
+#: ../themeoptions/options.php:965
+msgid "Choose a Sidebar for your shop page"
+msgstr "Mağaza sayfanız için bir Kenar Çubuğu seçin"
+
+#: ../themeoptions/options.php:973
+msgid "How many products per page"
+msgstr "Her sayfada kaç adet ürün olacağı"
+
+#: ../themeoptions/options.php:983
+msgid "Show Ratings in Shop and Category Pages"
+msgstr "Mağaza ve Kategori Sayfalarında Puanları Göster"
+
+#: ../themeoptions/options.php:984
+msgid "This determines if the rating is displayed in the product archive pages"
+msgstr ""
+"Bu, ürün arşiv sayfalarında puanın görüntülenip görüntülenmeyeceğini belirler"
+
+#: ../themeoptions/options.php:990
+msgid "Shop Product Title Settings"
+msgstr "Mağaza Ürün Başlığı Ayarları"
+
+#: ../themeoptions/options.php:995
+msgid "Shop & archive Product title Font"
+msgstr "Mağaza ve Arşiv Ürün Başlığı Yazı Tipi"
+
+#: ../themeoptions/options.php:1009
+msgid "Choose Size and Style for product titles on category and archive pages."
+msgstr ""
+"Kategori ve arşiv sayfalarındaki ürün başlıkları için Boyut ve Stil seçin."
+
+#: ../themeoptions/options.php:1020
+msgid "Set Product Title to Uppercase?"
+msgstr "Ürün Başlığı, büyük harflerle gösterilsin mi?"
+
+#: ../themeoptions/options.php:1021
+msgid "This makes your product titles uppercase on Category pages"
+msgstr "Bu, Kategori sayfalarında ürün başlıklarını büyük harfli yapar"
+
+#: ../themeoptions/options.php:1027
+msgid "Product title Min Height"
+msgstr "Ürün Başlığı Minimum Yükseklik"
+
+#: ../themeoptions/options.php:1028
+msgid ""
+"If your titles are long increase this to help align your products height."
+msgstr ""
+"Eğer başlıklarınız uzunsa, bu, ürünlerinizin yüksekliğini hizalamaya "
+"yardımcı olur."
+
+#: ../themeoptions/options.php:1037
+msgid "Product Image Sizes"
+msgstr "Ürün Resmi Boyutları"
+
+#: ../themeoptions/options.php:1042
+msgid "Enable Product Image Crop on Catalog pages"
+msgstr "Katalog sayfalarında Ürün Resmi Kırpmayı Etkinleştir"
+
+#: ../themeoptions/options.php:1043
+msgid ""
+"If turned off image dimensions are set by woocommerce settings - recommended "
+"width: 270px for Catalog Images"
+msgstr ""
+"Eğer bu kapatılırsa, resim ebatları, WooCommerce ayarları tarafından "
+"belirlenir - Tavsiye edilen genişlik: Katalog Resimleri için 270px"
+
+#: ../themeoptions/options.php:1049
+msgid "Enable Product Image Crop on product Page"
+msgstr "Ürün sayfasında Ürün Resmi Kesmeyi etkinleştir"
+
+#: ../themeoptions/options.php:1050
+msgid ""
+"If turned off image dimensions are set by woocommerce settings - recommended "
+"width: 468px for Single Product Image"
+msgstr ""
+"Eğer bu kapatılırsa, resim ebatları, WooCommerce ayarları tarafından "
+"belirlenir - Tavsiye edilen genişlik: Tek Ürün Resimleri için 468px"
+
+#: ../themeoptions/options.php:1056
+msgid "Product Page Settings"
+msgstr "Ürün Sayfası Ayarları"
+
+#: ../themeoptions/options.php:1061
+msgid "Display product tabs?"
+msgstr "Ürün sekmeleri görüntülensin mi?"
+
+#: ../themeoptions/options.php:1062
+msgid "This determines if product tabs are displayed"
+msgstr "Bu, ürün sekmelerinin görüntülenip görüntülenmeyeceğini belirler"
+
+#: ../themeoptions/options.php:1068
+msgid "Display related products?"
+msgstr "Benzer ürünler görüntülensin mi?"
+
+#: ../themeoptions/options.php:1069
+msgid "This determines related products are displayed"
+msgstr "Bu, benzer ürünlerin görüntülenip görüntülenmeyeceğini belirler."
+
+#: ../themeoptions/options.php:1077
+msgid "Basic Styling"
+msgstr "Basit Biçemlendirme"
+
+#: ../themeoptions/options.php:1078
+msgid "Basic Stylng"
+msgstr "Basit Biçemlendirme"
+
+#: ../themeoptions/options.php:1083
+msgid "Theme Skin Stylesheet"
+msgstr "Tema Dış Görünüm Stil Sayfası"
+
+#: ../themeoptions/options.php:1084
+msgid ""
+"Note* changes made in options panel will override this stylesheet. Example: "
+"Colors set in typography."
+msgstr ""
+"Not: Seçenekler panelinde yapılan değişiklikler, bu stil sayfasını geçersiz "
+"kılar. Örneğin: Tipografide belirlenen renkler."
+
+#: ../themeoptions/options.php:1093
+msgid "Primary Color"
+msgstr "Birincil Renk"
+
+#: ../themeoptions/options.php:1094
+msgid "Choose the default Highlight color for your site."
+msgstr "Siteniz için varsayılan Vurgu rengini seçin."
+
+#: ../themeoptions/options.php:1102
+msgid "20% lighter than Primary Color"
+msgstr "Birincil Renkten %20 daha açık"
+
+#: ../themeoptions/options.php:1103
+msgid "This is used for hover effects"
+msgstr "Bu, üzerinde gezdirme efektleri için kullanır"
+
+#: ../themeoptions/options.php:1111
+msgid "Sitewide Gray Fonts"
+msgstr "Site Geneli Gri Yazı Tipleri"
+
+#: ../themeoptions/options.php:1120
+msgid "Footer Font Color"
+msgstr "Alt Bilgi Yazı Tipi Rengi"
+
+#: ../themeoptions/options.php:1131
+msgid "Advanced Styling"
+msgstr "Gelişmiş Biçemlendirme"
+
+#: ../themeoptions/options.php:1132
+msgid "Main Content Background"
+msgstr "Ana İçerik Arka Planı"
+
+#: ../themeoptions/options.php:1137 ../themeoptions/options.php:1176
+#: ../themeoptions/options.php:1215 ../themeoptions/options.php:1254
+#: ../themeoptions/options.php:1293 ../themeoptions/options.php:1332
+#: ../themeoptions/options.php:1371
+msgid "Background Color"
+msgstr "Arka Plan Rengi"
+
+#: ../themeoptions/options.php:1145 ../themeoptions/options.php:1184
+#: ../themeoptions/options.php:1223 ../themeoptions/options.php:1262
+#: ../themeoptions/options.php:1301 ../themeoptions/options.php:1340
+#: ../themeoptions/options.php:1379
+msgid "Upload background image or texture"
+msgstr "Arka plan resmi veya tekstürü yükle"
+
+#: ../themeoptions/options.php:1150 ../themeoptions/options.php:1189
+#: ../themeoptions/options.php:1228 ../themeoptions/options.php:1267
+#: ../themeoptions/options.php:1306 ../themeoptions/options.php:1345
+#: ../themeoptions/options.php:1384
+msgid "Image repeat options"
+msgstr "Resim tekrarı seçenekleri"
+
+#: ../themeoptions/options.php:1157 ../themeoptions/options.php:1196
+#: ../themeoptions/options.php:1235 ../themeoptions/options.php:1274
+#: ../themeoptions/options.php:1313 ../themeoptions/options.php:1352
+#: ../themeoptions/options.php:1391
+msgid "X image placement options"
+msgstr "X resim yerleştirme seçenekleri"
+
+#: ../themeoptions/options.php:1164 ../themeoptions/options.php:1203
+#: ../themeoptions/options.php:1242 ../themeoptions/options.php:1281
+#: ../themeoptions/options.php:1320 ../themeoptions/options.php:1359
+#: ../themeoptions/options.php:1398
+msgid "Y image placement options"
+msgstr "Y resim yerleştirme seçenekleri"
+
+#: ../themeoptions/options.php:1171
+msgid "Topbar Background"
+msgstr "Üst Çubuk Arka Planı"
+
+#: ../themeoptions/options.php:1210
+msgid "Header Background"
+msgstr "Üst Bilgi Arka Planı"
+
+#: ../themeoptions/options.php:1249
+msgid "Secondary Menu Background"
+msgstr "İkincil Menü Arka Planı"
+
+#: ../themeoptions/options.php:1288
+msgid "Mobile Menu Background"
+msgstr "Mobil Menü Arka Planı"
+
+#: ../themeoptions/options.php:1327
+msgid "Footer Background"
+msgstr "Alt Bilgi Arka Planı"
+
+#: ../themeoptions/options.php:1366
+msgid "Body Background"
+msgstr "Gövde Arka Planı"
+
+#: ../themeoptions/options.php:1405
+msgid "Fixed or Scroll"
+msgstr "Sabit ya da Kaydırma"
+
+#: ../themeoptions/options.php:1414
+msgid "Typography"
+msgstr "Tipografi"
+
+#: ../themeoptions/options.php:1415
+msgid "Header Font Options"
+msgstr "Üst Bilgi Yazı Tipi Seçenekleri"
+
+#: ../themeoptions/options.php:1420
+msgid "H1 Headings"
+msgstr "H1 Başlıkları"
+
+#: ../themeoptions/options.php:1434
+msgid "Choose Size and Style for h1 (This Styles Your Page Titles)"
+msgstr "h1 için Boyut ve Stil Seçin (Bu, Sayfa Başlıklarınızı Biçimlendirir)"
+
+#: ../themeoptions/options.php:1445
+msgid "H2 Headings"
+msgstr "H2 Başlıkları"
+
+#: ../themeoptions/options.php:1459
+msgid "Choose Size and Style for h2"
+msgstr "h2 için Boyut ve Stil Seçin"
+
+#: ../themeoptions/options.php:1470
+msgid "H3 Headings"
+msgstr "H3 Başlıkları"
+
+#: ../themeoptions/options.php:1484
+msgid "Choose Size and Style for h3"
+msgstr "h3 için Boyut ve Stil Seçin"
+
+#: ../themeoptions/options.php:1495
+msgid "H4 Headings"
+msgstr "H4 Başlıkları"
+
+#: ../themeoptions/options.php:1509
+msgid "Choose Size and Style for h4"
+msgstr "h4 için Boyut ve Stil Seçin"
+
+#: ../themeoptions/options.php:1520
+msgid "H5 Headings"
+msgstr "H5 Başlıkları"
+
+#: ../themeoptions/options.php:1534
+msgid "Choose Size and Style for h5"
+msgstr "h5 için Boyut ve Stil Seçin"
+
+#: ../themeoptions/options.php:1545
+msgid "Body Font Options"
+msgstr "Gövde Yazı Tipi Seçenekleri"
+
+#: ../themeoptions/options.php:1550
+msgid "Body Font"
+msgstr "Gövde Yazı Tipi"
+
+#: ../themeoptions/options.php:1564
+msgid "Choose Size and Style for paragraphs"
+msgstr "Paragraflar için Boyut ve Stil Seçin"
+
+#: ../themeoptions/options.php:1577
+msgid "Menu Settings"
+msgstr "Menü Ayarları"
+
+#: ../themeoptions/options.php:1578
+msgid "Primary Menu Options"
+msgstr "Birincil Menü Seçenekleri"
+
+#: ../themeoptions/options.php:1583
+msgid "Primary Menu Font"
+msgstr "Birincil Menü Yazı Tipi"
+
+#: ../themeoptions/options.php:1597
+msgid "Choose Size and Style for primary menu"
+msgstr "Birincil Menü için Boyut ve Stil Seçin"
+
+#: ../themeoptions/options.php:1608
+msgid "Secondary Menu Options"
+msgstr "İkincil Menü Seçenekleri"
+
+#: ../themeoptions/options.php:1613
+msgid "Secondary Menu Font"
+msgstr "İkincil Menü Yazı Tipi"
+
+#: ../themeoptions/options.php:1627
+msgid "Choose Size and Style for secondary menu"
+msgstr "İkincil Menü için Boyut ve Stil Seçin"
+
+#: ../themeoptions/options.php:1638
+msgid "Mobile Menu Options"
+msgstr "Mobil Menü Seçenekleri"
+
+#: ../themeoptions/options.php:1643
+msgid "Mobile Menu Font"
+msgstr "Mobil Menü Yazı Tipi"
+
+#: ../themeoptions/options.php:1657
+msgid "Choose Size and Style for Mobile Menu"
+msgstr "Mobil Menü için Boyut ve Stil Seçin"
+
+#: ../themeoptions/options.php:1671 ../themeoptions/options.php:1672
+msgid "Misc Settings"
+msgstr "Diğer Ayarlar"
+
+#: ../themeoptions/options.php:1679
+msgid "All Projects Portfolio Page"
+msgstr "Tüm Projeler Portföy Sayfası"
+
+#: ../themeoptions/options.php:1680
+msgid ""
+"This sets the link in every single portfolio page. *note: You still have to "
+"set the page template to portfolio."
+msgstr ""
+"Bu, her tek portföy sayfasındaki bağlantıyı ayarlar. Not: Yine de sayfa "
+"görünümünü portföye ayarlamanız gerekmektedir."
+
+#: ../themeoptions/options.php:1685
+msgid "Allow Comments on Portfolio Posts"
+msgstr "Portföy Yazılarında Yorumlara İzin Ver"
+
+#: ../themeoptions/options.php:1686
+msgid "Turn on to allow Comments on Portfolio posts"
+msgstr "Portföy yazılarında Yorumlara izin vermek için açın"
+
+#: ../themeoptions/options.php:1692
+msgid "Hide Image Border"
+msgstr "Resim Kenarlığını Gizle"
+
+#: ../themeoptions/options.php:1693
+msgid "Choose to show or hide image border"
+msgstr "Resim kenarlığını gösterilmesini veya gizlenmesini seçin"
+
+#: ../themeoptions/options.php:1699
+msgid "Blog Archive"
+msgstr "Blog Arşivi"
+
+#: ../themeoptions/options.php:1700
+msgid "Choose to show full post or post excerpt."
+msgstr "Tüm yazının veya yazı özetinin görüntülenmesini seçin."
+
+#: ../themeoptions/options.php:1708
+msgid "Show Comments Closed Text?"
+msgstr "Yorumlar Kapalı yazısı gösterilsin mi?"
+
+#: ../themeoptions/options.php:1709
+msgid "Choose to show or hide comments closed alert below posts."
+msgstr ""
+"Yazıların altında yorumlar kapalı uyarısının gösterilmesini veya "
+"gizlenmesini seçin."
+
+#: ../themeoptions/options.php:1715
+msgid "Show Author Icon with posts?"
+msgstr "Yazılarda Yazar İkonu gösterilsin mi?"
+
+#: ../themeoptions/options.php:1716
+msgid "Choose to show or hide author icon under post title."
+msgstr ""
+"Yazı başlığının altında yazar ikonunun gösterilmesini veya gizlenmesini "
+"seçin."
+
+#: ../themeoptions/options.php:1722
+msgid "Show Previous and Next posts links?"
+msgstr "Önceki ve Sonraki yazı bağlantıları gösterilsin mi?"
+
+#: ../themeoptions/options.php:1723
+msgid ""
+"Choose to show or hide previous and next post links in the footer of a "
+"single post."
+msgstr ""
+"Bir yazının, alt bilgide önceki ve sonraki yazı bağlantılarının "
+"gösterilmesini veya gizlenmesini seçin."
+
+#: ../themeoptions/options.php:1730
+msgid "Custom Favicon"
+msgstr "Özel Site İkonu"
+
+#: ../themeoptions/options.php:1731
+msgid ""
+"Upload a 16px x 16px png/gif/ico image that will represent your website "
+"favicon."
+msgstr ""
+"Websitenizin ikonunu temsil edecek olan bir 16px x 16px png/gif/ico resmi "
+"yükleyin."
+
+#: ../themeoptions/options.php:1736
+msgid "Contact Form Email"
+msgstr "İletişim Formu Epostası"
+
+#: ../themeoptions/options.php:1737
+msgid "Sets the email for the contact page email form."
+msgstr "İletişim sayfası eposta formu için eposta adresini belirler."
+
+#: ../themeoptions/options.php:1743
+msgid "Footer Copyright Text"
+msgstr "Alt Bilgi Telif Hakkı Metni"
+
+#: ../themeoptions/options.php:1744
+msgid ""
+"Write your own copyright text here. You can use the following shortcodes in "
+"your footer text: [copyright] [site-name] [the-year]"
+msgstr ""
+"Kendi telif hakkı metninizi buraya girin. Alt Bilgi metninde şu kısa kodları "
+"kullanabilirsiniz: [copyright] [site-name] [the-year]"
+
+#: ../themeoptions/options.php:1750
+msgid "Blog Post Defaults"
+msgstr "Blog Yazısı Varsayılanları"
+
+#: ../themeoptions/options.php:1755
+msgid "Blog Post Summary Default"
+msgstr "Blog Yazı Özeti Varsayılanı"
+
+#: ../themeoptions/options.php:1763
+msgid "Blog Post Head Content Default"
+msgstr "Blog Yazısı Esas İçerik Varsayılanı"
+
+#: ../themeoptions/options.php:1771
+msgid "Create Sidebars"
+msgstr "Kenar Çubukları Yarat"
+
+#: ../themeoptions/options.php:1776
+msgid "Create Custom Sidebars"
+msgstr "Özel Kenar Çubukları Yarat"
+
+#: ../themeoptions/options.php:1777
+msgid "Type new sidebar name into textbox"
+msgstr "Metin kutusuna yeni kenar çubuğu adını yazın"
+
+#: ../themeoptions/options.php:1778
+msgid "Extra Sidebar"
+msgstr "Ekstra Kenar Çubuğu"
+
+#: ../themeoptions/options.php:1783
+msgid "Wordpress Galleries"
+msgstr "Wordpress Galerileri"
+
+#: ../themeoptions/options.php:1788
+msgid "Enable Virtue Galleries to override Wordpress"
+msgstr ""
+"Wordpress Galerilerini geçersiz kılmak için Virtue Galerilerini etkinleştir"
+
+#: ../themeoptions/options.php:1789
+msgid ""
+"Disable this if using a plugin to customize galleries, for example jetpack "
+"tiled gallery."
+msgstr ""
+"Galerileri özelleştirmek (örneğin JetPack galerileri kullanmak) için bir "
+"eklenti kullanıyorsanız bunu devre dışı bırakın."
+
+#: ../themeoptions/options.php:1797
+msgid "Advanced Settings"
+msgstr "Gelişmiş Ayarlar"
+
+#: ../themeoptions/options.php:1798
+msgid "Custom CSS Box"
+msgstr "Özel CSS Kutusu"
+
+#: ../themeoptions/options.php:1803
+msgid "Custom CSS"
+msgstr "Özel CSS"
+
+#: ../themeoptions/options.php:1804
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr "Bu kutuya kod girerek, temanıza hızlıca CSS kodu ekleyin."
+
+#: ../themeoptions/options.php:1812
+msgid "Theme Update Import"
+msgstr "Tema Güncelleme İçeri Aktarımı"
+
+#: ../themeoptions/options.php:1813
+msgid ""
+"If updating from version 1.5.6 or earlier use this script to update your "
+"theme options."
+msgstr ""
+"Versiyon 1.5.6 veya öncesi sürümlerden güncelleme yapıyorsanız, tema "
+"ayarlarınızı güncellemek için bu komut dizisini kullanın."
+
+#: ../themeoptions/options.php:1818
+msgid "Turn on and save to start script"
+msgstr "Komut dizisini başlatmak için etkinleştir ve kaydet"
+
+#: ../themeoptions/options.php:1825
+msgid "If using a child theme enter child theme folder"
+msgstr "Bir alt tema kullanıyorsanız, alt tema klasörünü girin"
+
+#: ../themeoptions/options.php:1849 ../themeoptions/options.php:1850
+msgid "Theme Options"
+msgstr "Tema Ayarları"
+
+#: ../themeoptions/options.php:1857
+msgid ""
+"Thank you for using the Virtue Theme by <a href=\"http://kadencethemes.com/"
+"\" target=\"_blank\">Kadence Themes</a>."
+msgstr ""
+"<a href=\"http://kadencethemes.com/\" target=\"_blank\">Kadence Themes</a> "
+"tarafından hazırlanan Virtue Teması'nı kullandığınız için teşekkür ederiz."
+
+#: ../themeoptions/extensions/customizer/extension_customizer.php:441
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+"Kaydedilmemiş değişikler yaptınız. Bunları şimdi kaydetmek ister misiniz?"
+
+#: ../themeoptions/extensions/customizer/extension_customizer.php:442
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr "Emin misiniz? Sıfırlayarak tüm özel değerleri kaybedeceksiniz."
+
+#: ../themeoptions/extensions/customizer/extension_customizer.php:443
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+"Mevcut ayarlarınız, bu ayarlarla değiştirilecektir. Devam etmek istiyor "
+"musunuz?"
+
+# %s must be switched in the translated text
+#: ../woocommerce/single-product-reviews.php:21
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s için %s görüş"
+msgstr[1] "%s için %s görüş"
+
+#: ../woocommerce/single-product-reviews.php:23
+msgid "Reviews"
+msgstr "Görüşler"
+
+#: ../woocommerce/single-product-reviews.php:44
+msgid "There are no reviews yet."
+msgstr "Henüz herhangi bir görüş yok."
+
+#: ../woocommerce/single-product-reviews.php:57
+msgid "Add a review"
+msgstr "Bir görüş ekle"
+
+#: ../woocommerce/single-product-reviews.php:57
+msgid "Be the first to review"
+msgstr "İlk görüşü yazan ol"
+
+#: ../woocommerce/single-product-reviews.php:64
+msgid "Email"
+msgstr "Eposta"
+
+#: ../woocommerce/single-product-reviews.php:67
+msgid "Submit"
+msgstr "Gönder"
+
+#: ../woocommerce/single-product-reviews.php:73
+msgid "Your Rating"
+msgstr "Puanınız"
+
+#: ../woocommerce/single-product-reviews.php:74
+msgid "Rate&hellip;"
+msgstr "Puan&hellip;"
+
+#: ../woocommerce/single-product-reviews.php:75
+msgid "Perfect"
+msgstr "Mükemmel"
+
+#: ../woocommerce/single-product-reviews.php:76
+msgid "Good"
+msgstr "İyi"
+
+#: ../woocommerce/single-product-reviews.php:77
+msgid "Average"
+msgstr "Orta"
+
+#: ../woocommerce/single-product-reviews.php:78
+msgid "Not that bad"
+msgstr "Fena değil"
+
+#: ../woocommerce/single-product-reviews.php:79
+msgid "Very Poor"
+msgstr "Çok kötü"
+
+#: ../woocommerce/single-product-reviews.php:83
+msgid "Your Review"
+msgstr "Görüşünüz"
+
+#: ../woocommerce/single-product-reviews.php:92
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Yalnızca bu ürünü satın alan, giriş yapmış kullanıcılar bir görüş "
+"bırakabilir."
+
+#: ../woocommerce/single-product.php:24 ../woocommerce/single-product.php:28
+msgid "Back to"
+msgstr "Geriye Dön"
+
+#: ../woocommerce/single-product.php:28
+msgid "Shop"
+msgstr "Mağaza"
+
+#: ../woocommerce/cart/cart-totals.php:16
+msgid "Cart Totals"
+msgstr "Sepet Toplamı"
+
+#: ../woocommerce/cart/cart-totals.php:21
+msgid "Cart Subtotal"
+msgstr "Sepet Ara Toplamı"
+
+#: ../woocommerce/cart/cart-totals.php:75
+msgid "Order Total"
+msgstr "Sipariş Toplamı"
+
+#: ../woocommerce/cart/cart-totals.php:87
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr "(%s için tahmini vergiler)"
+
+#: ../woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+"Not: Gönderi ücreti ve vergiler tahminidir%s, fatura ve gönderi bilginize "
+"bağlı olarak kasa noktasında güncellenecektir."
+
+#: ../woocommerce/cart/cart.php:27 ../woocommerce/order/order-details.php:20
+msgid "Product"
+msgstr "Ürün"
+
+#: ../woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr "Fiyat"
+
+#: ../woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr "Miktar"
+
+#: ../woocommerce/cart/cart.php:30 ../woocommerce/order/order-details.php:21
+msgid "Total"
+msgstr "Toplam"
+
+#: ../woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr "Bu ürünü kaldır"
+
+#: ../woocommerce/cart/cart.php:74
+msgid "Available on backorder"
+msgstr "Ard ısmarlama için mevcut"
+
+#: ../woocommerce/cart/cart.php:118
+msgid "Coupon"
+msgstr "Kupon"
+
+#: ../woocommerce/cart/cart.php:118
+msgid "Coupon code"
+msgstr "Kupon kodu"
+
+#: ../woocommerce/cart/cart.php:118
+msgid "Apply Coupon"
+msgstr "Kuponu Uygula"
+
+#: ../woocommerce/cart/cart.php:125
+msgid "Update Cart"
+msgstr "Sepeti Güncelle"
+
+#: ../woocommerce/cart/cart.php:125
+msgid "Proceed to Checkout"
+msgstr "Kasaya Git"
+
+#: ../woocommerce/cart/cross-sells.php:38
+msgid "You may be interested in&hellip;"
+msgstr "Bunlar ilginizi çekebilir&hellip;"
+
+#: ../woocommerce/cart/shipping-calculator.php:22
+msgid "Calculate Shipping"
+msgstr "Gönderi Ücreti Hesapla"
+
+#: ../woocommerce/cart/shipping-calculator.php:28
+msgid "Select a country&hellip;"
+msgstr "Bir ülke seç&hellip;"
+
+#: ../woocommerce/cart/shipping-calculator.php:45
+#: ../woocommerce/cart/shipping-calculator.php:51
+#: ../woocommerce/cart/shipping-calculator.php:63
+msgid "State / county"
+msgstr "İlçe"
+
+#: ../woocommerce/cart/shipping-calculator.php:52
+msgid "Select a state&hellip;"
+msgstr "İlçe seç&hellip;"
+
+#: ../woocommerce/cart/shipping-calculator.php:72
+msgid "City"
+msgstr "İl"
+
+#: ../woocommerce/cart/shipping-calculator.php:80
+msgid "Postcode / Zip"
+msgstr "Posta Kodu"
+
+#: ../woocommerce/cart/shipping-calculator.php:86
+msgid "Update Totals"
+msgstr "Toplamı Güncelle"
+
+#: ../woocommerce/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+"Banka/Mağaza işleminizi reddettiği için ne yazık ki siparişiniz verilemedi."
+
+#: ../woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr "Lütfen tekrar satın almayı deneyin veya hesabınız sayfasına gidin."
+
+#: ../woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr "Lütfen tekrar satın almayı deneyin."
+
+#: ../woocommerce/checkout/thankyou.php:28
+msgid "Pay"
+msgstr "Ödeme Yap"
+
+#: ../woocommerce/checkout/thankyou.php:30
+msgid "My Account"
+msgstr "Hesabım"
+
+#: ../woocommerce/checkout/thankyou.php:36
+#: ../woocommerce/checkout/thankyou.php:67
+msgid "Thank you. Your order has been received."
+msgstr "Teşekkürler. Siparişiniz alındı."
+
+#: ../woocommerce/checkout/thankyou.php:40
+msgid "Order:"
+msgstr "Sipariş:"
+
+#: ../woocommerce/checkout/thankyou.php:44
+msgid "Date:"
+msgstr "Tarih:"
+
+#: ../woocommerce/checkout/thankyou.php:48
+msgid "Total:"
+msgstr "Toplam:"
+
+#: ../woocommerce/checkout/thankyou.php:53
+msgid "Payment method:"
+msgstr "Ödeme yöntemi:"
+
+#: ../woocommerce/loop/no-products-found.php:14
+msgid "No products found which match your selection."
+msgstr "Seçiminize uygun ürün bulunamadı."
+
+#: ../woocommerce/loop/orderby.php:21
+msgid "Default sorting"
+msgstr "Varsayılan sıralama"
+
+#: ../woocommerce/loop/orderby.php:22
+msgid "Sort by popularity"
+msgstr "Popülariteye göre sırala"
+
+#: ../woocommerce/loop/orderby.php:23
+msgid "Sort by average rating"
+msgstr "Ortalama puana göre sırala"
+
+#: ../woocommerce/loop/orderby.php:24
+msgid "Sort by newness"
+msgstr "Yeni olmaya göre sırala"
+
+#: ../woocommerce/loop/orderby.php:25
+msgid "Sort by price: low to high"
+msgstr "Fiyata göre sırala: düşükten yükseğe"
+
+#: ../woocommerce/loop/orderby.php:26
+msgid "Sort by price: high to low"
+msgstr "Fiyata göre sırala: yüksekten düşüğe"
+
+#: ../woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr "Tek sonuç gösteriliyor"
+
+#: ../woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d results"
+msgstr "Tüm %d sonuçları gösteriliyor"
+
+#: ../woocommerce/loop/sale-flash.php:16
+#: ../woocommerce/single-product/sale-flash.php:16
+msgid "Sale!"
+msgstr "İndirim!"
+
+#: ../woocommerce/order/form-tracking.php:17
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+"Siparişinizi takip etmek için, lütfen aşağıdaki kutuya Sipariş Numaranızı "
+"giriniz ve giriş tuşuna basınız. Bu numara, size faturanızda ve gönderilen "
+"onay epostasında verilmiştir."
+
+#: ../woocommerce/order/form-tracking.php:19
+msgid "Order ID"
+msgstr "Sipariş Numarası"
+
+#: ../woocommerce/order/form-tracking.php:19
+msgid "Found in your order confirmation email."
+msgstr "Sipariş onay epostasında bulunmaktadır."
+
+#: ../woocommerce/order/form-tracking.php:20
+msgid "Billing Email"
+msgstr "Fatura Epostası"
+
+#: ../woocommerce/order/form-tracking.php:20
+msgid "Email you used during checkout."
+msgstr "Kasa işlemi sırasında kullandığınız eposta."
+
+#: ../woocommerce/order/form-tracking.php:23
+msgid "Track"
+msgstr "Takip"
+
+#: ../woocommerce/order/order-details.php:16
+msgid "Order Details"
+msgstr "Sipariş Bilgileri"
+
+#: ../woocommerce/order/order-details.php:66
+#, php-format
+msgid "Download file%s"
+msgstr "Dosya%s İndir"
+
+#: ../woocommerce/order/order-details.php:98
+msgid "Order Again"
+msgstr "Yeniden Sipariş Ver"
+
+#: ../woocommerce/order/order-details.php:105
+msgid "Customer details"
+msgstr "Müşteri bilgileri"
+
+#: ../woocommerce/order/order-details.php:126
+msgid "Billing Address"
+msgstr "Fatura Adresi"
+
+#: ../woocommerce/order/order-details.php:130
+#: ../woocommerce/order/order-details.php:145
+msgid "N/A"
+msgstr "Yok"
+
+#: ../woocommerce/order/order-details.php:141
+msgid "Shipping Address"
+msgstr "Gönderi Adresi"
+
+#: ../woocommerce/shop/breadcrumb.php:63
+msgid "Products tagged &ldquo;"
+msgstr "&ldquo; etiketli ürünler"
+
+#: ../woocommerce/shop/breadcrumb.php:91
+#: ../woocommerce/shop/breadcrumb.php:188
+msgid "Search results for &ldquo;"
+msgstr "&ldquo; için arama sonuçları"
+
+#: ../woocommerce/shop/breadcrumb.php:146
+msgid "Error 404"
+msgstr "404 Hatası"
+
+#: ../woocommerce/shop/breadcrumb.php:192
+msgid "Posts tagged &ldquo;"
+msgstr "&ldquo; etiketli yazılar"
+
+#: ../woocommerce/shop/breadcrumb.php:197
+msgid "Author:"
+msgstr "Yazar:"
+
+#: ../woocommerce/shop/breadcrumb.php:202
+msgid "Page"
+msgstr "Sayfa"
+
+#: ../woocommerce/shop/form-login.php:20
+msgid "Username or email"
+msgstr "Kullanıcı Adı veya Eposta"
+
+#: ../woocommerce/shop/form-login.php:31
+msgid "Login"
+msgstr "Giriş"
+
+#: ../woocommerce/shop/form-login.php:33
+msgid "Lost Password?"
+msgstr "Şifrenizi mi unuttunuz?"
+
+#: ../woocommerce/single-product/rating.php:23
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "5 üzerinden %s Puan aldı"
+
+#: ../woocommerce/single-product/rating.php:25
+#: ../woocommerce/single-product/review.php:27
+msgid "out of 5"
+msgstr "5 üzerinden"
+
+#: ../woocommerce/single-product/rating.php:28
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s müşteri görüşü"
+msgstr[1] "%s müşteri görüşü"
+
+#: ../woocommerce/single-product/review.php:26
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "5 üzerinden %d Puan aldı"
+
+#: ../woocommerce/single-product/review.php:34
+msgid "Your comment is awaiting approval"
+msgstr "Yorumunuz onay bekliyor"
+
+#: ../woocommerce/single-product/review.php:43
+msgid "verified owner"
+msgstr "onaylı ürün sahibi"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:80
+msgid "Choose an option"
+msgstr "Bir seçenek tercih et"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:128
+msgid "Clear selection"
+msgstr "Seçimi temizle"
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:161
+msgid "This product is currently out of stock and unavailable."
+msgstr "Bu ürün şu an için stokta bulunmamaktadır ve mevcut değildir."
+
+#: ../woocommerce/single-product/tabs/additional-information.php:14
+msgid "Additional Information"
+msgstr "Ek Bilgi"
+
+#: ../woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr "Ürün Açıklaması"
+
+#~ msgid "%1$s License Key"
+#~ msgstr "%1$s Lisans Anahtarı"
+
+#~ msgid "Deactivate License"
+#~ msgstr "Lisansı Devre Dışı Bırak"
+
+#~ msgid ""
+#~ "Updating this theme will lose any customizations you have made. 'Cancel' "
+#~ "to stop, 'OK' to update."
+#~ msgstr ""
+#~ "Bu temayı güncellemek, yaptığınız değişikliklerin kaybolmasına yol "
+#~ "açacaktır. Durdurmak için 'İptal Et', Güncellemek için 'Tamam'ı tıkla."
+
+#~ msgid "Not Activated"
+#~ msgstr "Etkinleştirilmemiş"
+
+#~ msgid "Deactivated"
+#~ msgstr "Devre Dışı Bırakılmış"
+
+#~ msgid "Valid"
+#~ msgstr "Geçerli"
+
+#~ msgid "License Status"
+#~ msgstr "Lisans Durumu"
+
+#~ msgid "Verify License"
+#~ msgstr "Lisansı Doğrula"
+
+#~ msgid "Activate License"
+#~ msgstr "Lisansı Etkinleştir"
+
+#~ msgid "Upload Icon"
+#~ msgstr "İkon Yükle"
+
+#~ msgid "Select an Icon"
+#~ msgstr "Bir İkon Seç"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Description"
+#~ msgstr "Açıklama"
+
+#~ msgid "Icon Link"
+#~ msgstr "İkon Bağlantısı"
+
+#~ msgid "Open Link in New Tab/Window"
+#~ msgstr "Bağlantıyı Yeni Sekme/Pencerede Aç"
+
+#~ msgid "Delete Icon"
+#~ msgstr "İkonu Sil"
+
+#~ msgid "Add Icon"
+#~ msgstr "İkon Ekle"
+
+#~ msgid "Slide Link"
+#~ msgstr "Slayt Bağlantısı"
+
+#~ msgid "Select an Option"
+#~ msgstr "Bir Ayar Seç"
+
+#~ msgid "Delete Slide"
+#~ msgstr "Slaytı Sil"
+
+#~ msgid "Add Slide"
+#~ msgstr "Slayt Ekle"
+
+#~ msgid "Transparent"
+#~ msgstr "Transparan"
+
+#~ msgid "Background Repeat"
+#~ msgstr "Arka Plan Tekrarı"
+
+#~ msgid "Background Clip"
+#~ msgstr "Arka Planı Kesme"
+
+#~ msgid "Background Origin"
+#~ msgstr "Arka Plan Orijini"
+
+#~ msgid "Background Size"
+#~ msgstr "Arka Plan Boyutu"
+
+#~ msgid "Background Attachment"
+#~ msgstr "Arka Plan Eki"
+
+#~ msgid "Background Position"
+#~ msgstr "Arka Plan Pozisyonu"
+
+#~ msgid "No media selected"
+#~ msgstr "Herhangi bir ortam dosyası seçilmedi"
+
+#~ msgid "Top"
+#~ msgstr "Üst"
+
+#~ msgid "Right"
+#~ msgstr "Sağ"
+
+#~ msgid "Bottom"
+#~ msgstr "Alt"
+
+#~ msgid "Left"
+#~ msgstr "Sol"
+
+#~ msgid "Border style"
+#~ msgstr "Kenar stili"
+
+#~ msgid "To "
+#~ msgstr "Kime"
+
+#~ msgid "Width"
+#~ msgstr "Genişlik"
+
+#~ msgid "height"
+#~ msgstr "Yükseklik"
+
+#~ msgid "Units"
+#~ msgstr "Birim"
+
+#~ msgid "Add/Edit Gallery"
+#~ msgstr "Galeri Ekle/Düzenle"
+
+#~ msgid "Clear Gallery"
+#~ msgstr "Galeriyi Temizle"
+
+#~ msgid "New "
+#~ msgstr "Yeni"
+
+#~ msgid "Delete"
+#~ msgstr "Sil"
+
+#~ msgid "Add"
+#~ msgstr "Ekle"
+
+#~ msgid "Import / Export Options"
+#~ msgstr "Seçenekleri İçeri / Dışarı Aktar"
+
+#~ msgid "Import Options"
+#~ msgstr "Seçenekleri İçeri Aktar"
+
+#~ msgid "Import from file"
+#~ msgstr "Dosyadan içeri aktar"
+
+#~ msgid "Import from URL"
+#~ msgstr "URL'den içeri aktar"
+
+#~ msgid ""
+#~ "Input your backup file below and hit Import to restore your sites options "
+#~ "from a backup."
+#~ msgstr ""
+#~ "Aşağıdan yedekleme dosyanızı girin ve sitenizin seçeneklerini yedekten "
+#~ "geri yüklemek için İçeri Aktar'a basın."
+
+#~ msgid ""
+#~ "Input the URL to another sites options set and hit Import to load the "
+#~ "options from that site."
+#~ msgstr ""
+#~ "Diğer site seçenekler setine URL'yi girin ve o sitedeki seçenekleri "
+#~ "yüklemek için İçeri Aktar'a basın."
+
+#~ msgid "Import"
+#~ msgstr "İçeri Aktar"
+
+#~ msgid ""
+#~ "WARNING! This will overwrite all existing option values, please proceed "
+#~ "with caution!"
+#~ msgstr ""
+#~ "UYARI! Bu, tüm ayarlarınızın üzerine yazacaktır, lütfen dikkatli "
+#~ "kullanınız!"
+
+#~ msgid "Export Options"
+#~ msgstr "Seçenekleri Dışarı Aktar"
+
+#~ msgid ""
+#~ "Here you can copy/download your current option settings. Keep this safe "
+#~ "as you can use it as a backup should anything go wrong, or you can use it "
+#~ "to restore your settings on this site (or any other site)."
+#~ msgstr ""
+#~ "Burada mevcut seçeneklerinizi kopyalayabilir/indirebilirsiniz. Bunu, "
+#~ "herhangi bir şey yanlış giderse bir yedek olarak veya bu sitedeki (veya "
+#~ "bir başka sitedeki) ayarlarınızı geri yüklemek üzere kullanabileceğiniz "
+#~ "için güvende tutunuz."
+
+#~ msgid "Copy"
+#~ msgstr "Kopyala"
+
+#~ msgid "Copy Link"
+#~ msgstr "Bağlantıyı Kopyala"
+
+#~ msgid "Import / Export"
+#~ msgstr "İçeri / Dışarı Aktar"
+
+#~ msgid "Regular"
+#~ msgstr "Normal"
+
+#~ msgid "Hover"
+#~ msgstr "Üzerinde Gezdirme"
+
+#~ msgid "Visited"
+#~ msgstr "Ziyaret Edilen"
+
+#~ msgid "Active"
+#~ msgstr "Aktif"
+
+#~ msgid "Add More"
+#~ msgstr "Daha Fazla Ekle"
+
+#~ msgid "Password"
+#~ msgstr "Şifre"
+
+#~ msgid "Username"
+#~ msgstr "Kullanıcı Adı"
+
+#~ msgid "Select an item"
+#~ msgstr "Bir öge seç"
+
+#~ msgid "No items of this type were found."
+#~ msgstr "Bu türden hiçbir öge bulunamadı."
+
+#~ msgid "On"
+#~ msgstr "Açık"
+
+#~ msgid "Off"
+#~ msgstr "Kapalı"
+
+#~ msgid "Font family"
+#~ msgstr "Yazı tipi ailesi"
+
+#~ msgid "Standard Fonts"
+#~ msgstr "Standart Yazı Tipleri"
+
+#~ msgid "Backup Font Family"
+#~ msgstr "Yazı Tipi Ailesini Yedekle"
+
+#~ msgid "Font style"
+#~ msgstr "Yazı Tipi Stili"
+
+#~ msgid "Style"
+#~ msgstr "Stil"
+
+#~ msgid "Font subsets"
+#~ msgstr "Yazı Tipi Alt Dizisi"
+
+#~ msgid "Subsets"
+#~ msgstr "Alt Diziler"
+
+#~ msgid "Font script"
+#~ msgstr "Yazı Tipi Dizisi"
+
+#~ msgid "Text Align"
+#~ msgstr "Metin Hizalama"
+
+#~ msgid "Text Transform"
+#~ msgstr "Metin Dönüştürücü"
+
+#~ msgid "Size"
+#~ msgstr "Boyut"
+
+#~ msgid "Height"
+#~ msgstr "Yükseklik"
+
+#~ msgid "Word Spacing"
+#~ msgstr "Kelime Boşluğu"
+
+#~ msgid "Letter Spacing"
+#~ msgstr "Harf Boşluğu"
+
+#~ msgid "Font color"
+#~ msgstr "Yazı Tipi Rengi"
+
+#~ msgid "Google Webfonts"
+#~ msgstr "Google Web Yazı Tipleri"
+
+#~ msgid "This field must be a valid color value."
+#~ msgstr "Bu alanda geçerli bir renk değeri olmalıdır."
+
+#~ msgid ""
+#~ "You must provide a comma separated list of numerical values for this "
+#~ "option."
+#~ msgstr ""
+#~ "Bu seçenek için sayısal değerlerin virgülle ayrıldığı bir liste "
+#~ "sağlamalısınız."
+
+#~ msgid "This field must be a valid date."
+#~ msgstr "Bu alanda geçerli bir tarih olmalıdır."
+
+#~ msgid "You must provide a valid email for this option."
+#~ msgstr "Bu seçenek için geçerli bir eposta sağlamalısınız."
+
+#~ msgid ""
+#~ "You must not enter any HTML in this field, all HTML tags have been "
+#~ "removed."
+#~ msgstr ""
+#~ "Bu alana herhangi bir HTML girmemelisiniz, tüm HTML etiketleri "
+#~ "kaldırılmaktadır."
+
+#~ msgid ""
+#~ "You must not enter any special characters in this field, all special "
+#~ "characters have been removed."
+#~ msgstr ""
+#~ "Bu alana herhangi bir özel karakter girmemelisiniz, tüm özel karakterler "
+#~ "kaldırılmaktadır."
+
+#~ msgid "This field cannot be empty. Please provide a value."
+#~ msgstr "Bu alan boş bırakılamaz. Lütfen bir değer sağlayınız."
+
+#~ msgid "You must provide a numerical value for this option."
+#~ msgstr "Bu seçenek için sayısal bir değer sağlamalısınız."
+
+#~ msgid "You must provide a valid URL for this option."
+#~ msgstr "Bu seçenek için geçerli bir URL sağlamalısınız."
