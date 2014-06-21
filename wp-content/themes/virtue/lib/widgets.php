@@ -775,8 +775,7 @@ class Simple_About_With_Image extends WP_Widget{
     ?>
      <?php echo $before_widget; ?>
     <div class="about_image_widget">    
-      <a href="http://google.com"><img src="<?php echo esc_url($instance['image_uri']); ?>"/> 
-      </a>
+      <a href="http://google.com"><img src="<?php echo esc_url($instance['image_uri']); ?>"/></a>
         <p><?php echo $instance['text']; ?></p>
     </div>
 
